@@ -49,6 +49,7 @@ common:
             remote_certificate_authority_name: Verizon Wireless ROOT CA - RSA
             remote_certificate_hostname: wo.vzwwo.com
             sa_lifetime_seconds: 80000
+            username: 0$imsi@nai.epc.mnc480.mcc311.3gppnetwork.org
             validate_remote_certificate: true
         ip_stack: ipv6
         media:
