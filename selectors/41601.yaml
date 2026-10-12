@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41601"
           carrier_name: Zain JO
+          iso: JO

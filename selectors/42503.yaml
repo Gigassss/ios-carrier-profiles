@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "42503"
           carrier_name: Pelephone
+          iso: IL

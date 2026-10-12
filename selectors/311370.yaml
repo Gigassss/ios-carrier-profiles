@@ -6,12 +6,14 @@ profiles:
       selectors:
         - raw: 311370_ID-89013113702
           carrier_name: ACS
+          iso: US
           conditions:
             - field: iccid
               match: prefix
               value: "89013113702"
         - raw: 311370_ID-89013113708
           carrier_name: ACS
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -21,12 +23,14 @@ profiles:
       selectors:
         - raw: 311370_GID1-0050
           carrier_name: GCI
+          iso: US
           conditions:
             - field: gid1
               match: prefix
               value: "0050"
         - raw: 311370_ID-89013113701
           carrier_name: GCI
+          iso: US
           conditions:
             - field: iccid
               match: prefix

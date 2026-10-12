@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 310120_GID2-13
           carrier_name: Boost
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 310120_GID2-11
           carrier_name: Sprint
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 310120_GID2-12
           carrier_name: Virgin
+          iso: US
           conditions:
             - field: gid2
               match: prefix

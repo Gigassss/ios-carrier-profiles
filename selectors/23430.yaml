@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 23430_GID1-B3
           carrier_name: EE
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 23430_GID1-C3
           carrier_name: BT-C
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 23430_GID1-B2
           carrier_name: BT-OP
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -34,3 +37,4 @@ profiles:
       selectors:
         - raw: "23430"
           carrier_name: EE
+          iso: GB

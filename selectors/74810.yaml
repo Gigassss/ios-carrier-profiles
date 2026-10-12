@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "74810"
           carrier_name: CLARO Uruguay
+          iso: UY

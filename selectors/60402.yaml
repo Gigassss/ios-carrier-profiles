@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60402"
           carrier_name: inwi
+          iso: MA

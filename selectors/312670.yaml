@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "312670"
           carrier_name: FirstNet
+          iso: US

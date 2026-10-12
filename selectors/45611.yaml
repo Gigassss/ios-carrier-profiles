@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "45611"
           carrier_name: seatel
+          iso: KH

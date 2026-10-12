@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23001"
           carrier_name: T-Mobile CZ
+          iso: CZ

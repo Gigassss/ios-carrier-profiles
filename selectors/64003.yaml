@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64003"
           carrier_name: ZANTEL
+          iso: TZ

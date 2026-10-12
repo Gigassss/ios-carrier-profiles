@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "27202"
           carrier_name: 3 Ireland
+          iso: IE

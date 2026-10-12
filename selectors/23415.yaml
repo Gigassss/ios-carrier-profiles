@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 23415_GID1-C1
           carrier_name: Talkmobile
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "23415"
           carrier_name: vodafone UK
+          iso: GB

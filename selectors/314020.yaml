@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "314020"
           carrier_name: Spectrum
+          iso: US

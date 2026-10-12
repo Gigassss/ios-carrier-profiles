@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 310450_ID-8901450
           carrier_name: Viaero
+          iso: US
           conditions:
             - field: iccid
               match: prefix

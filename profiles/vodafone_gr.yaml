@@ -71,9 +71,7 @@ plmn_overrides:
                           esn: auto
                           install_policies: true
                           lifetime_seconds: 3600
-                    lifetime_seconds: 3600
                     replay_window_size: 12
-                sa_lifetime_seconds: 3600
             register:
                 use_ipsec: true
                 include_cellular_network_info: true

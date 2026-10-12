@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "21670"
           carrier_name: vodafone HU
+          iso: HU

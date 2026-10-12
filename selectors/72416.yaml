@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "72416"
           carrier_name: Oi
+          iso: BR

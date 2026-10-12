@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "50501"
           carrier_name: Telstra
+          iso: AU

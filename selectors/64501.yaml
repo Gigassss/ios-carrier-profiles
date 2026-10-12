@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64501"
           carrier_name: Airtel
+          iso: ZM

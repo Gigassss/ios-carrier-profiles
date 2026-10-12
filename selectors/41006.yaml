@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41006"
           carrier_name: Telenor PK
+          iso: PK

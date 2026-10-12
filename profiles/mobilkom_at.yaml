@@ -50,7 +50,6 @@ common:
                   type: v6
         ike:
             child_sa:
-                lifetime_seconds: 80000
                 proposals:
                     - source_branch: FirstChild
                       encryption:
@@ -80,7 +79,6 @@ common:
                   authentication_method: None
                   eap_method: EAP-AKA
             remote_identifier_type: KeyID
-            sa_lifetime_seconds: 80000
             validate_remote_certificate: false
         ip_stack: ipv4v6
         media:

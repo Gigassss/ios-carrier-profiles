@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23101"
           carrier_name: Orange Slovensko
+          iso: SK

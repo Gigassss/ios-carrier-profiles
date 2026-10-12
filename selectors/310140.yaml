@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "310140"
           carrier_name: GTA
+          iso: GU

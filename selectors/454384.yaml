@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 454384_ID-8985234
           carrier_name: CMLink
+          iso: HK
           conditions:
             - field: iccid
               match: prefix

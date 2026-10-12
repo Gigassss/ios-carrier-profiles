@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "310014"
           carrier_name: Xfinity Mobile
+          iso: US

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23820"
           carrier_name: Norlys
+          iso: DK

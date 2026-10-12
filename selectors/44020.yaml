@@ -7,8 +7,10 @@ profiles:
       selectors:
         - raw: "44020"
           carrier_name: ソフトバンク
+          iso: JP
         - raw: 44020_GID1-48FFFF
           carrier_name: LINEMO
+          iso: JP
           conditions:
             - field: gid1
               match: prefix
@@ -18,12 +20,14 @@ profiles:
       selectors:
         - raw: 44020_GID1-01FFFF
           carrier_name: ワイモバイル
+          iso: JP
           conditions:
             - field: gid1
               match: prefix
               value: 01FFFF
         - raw: 44020_GID1-16FFFF
           carrier_name: ワイモバイル
+          iso: JP
           conditions:
             - field: gid1
               match: prefix

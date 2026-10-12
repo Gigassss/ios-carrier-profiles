@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "71402"
           carrier_name: TIGO
+          iso: PA

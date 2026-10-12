@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 20601_ID-893135
           carrier_name: Airalo
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 20601_ID-893204
           carrier_name: BICS
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 20601_ID-89972080
           carrier_name: GOLAN T
+          iso: IL
           conditions:
             - field: iccid
               match: prefix
@@ -42,6 +46,7 @@ profiles:
       selectors:
         - raw: 20601_ID-8985234
           carrier_name: CMLink
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
@@ -51,6 +56,7 @@ profiles:
       selectors:
         - raw: 20601_ID-891035
           carrier_name: Eastlink
+          iso: CA
           conditions:
             - field: iccid
               match: prefix
@@ -60,6 +66,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-0409
           carrier_name: eSIM Go
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -69,6 +76,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-f004_ID-8926202203
           carrier_name: Only
+          iso: YT
           conditions:
             - field: gid1
               match: prefix
@@ -81,6 +89,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-0407_ID-8935333
           carrier_name: Holafly
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -90,6 +99,7 @@ profiles:
               value: "8935333"
         - raw: 20601_GID1-0407_ID-8985234
           carrier_name: Holafly
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -102,6 +112,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -111,6 +122,7 @@ profiles:
       selectors:
         - raw: 20601_ID-893326
           carrier_name: BTBD
+          iso: FR
           conditions:
             - field: iccid
               match: prefix
@@ -120,6 +132,7 @@ profiles:
       selectors:
         - raw: 20601_ID-8937410
           carrier_name: Ucom Armenia
+          iso: AM
           conditions:
             - field: iccid
               match: prefix
@@ -130,11 +143,13 @@ profiles:
       selectors:
         - raw: "20601"
           carrier_name: Proximus
+          iso: BE
     - id: apple_redteamobile
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 20601_ID-89852245280
           carrier_name: RedteaMobile
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
@@ -144,6 +159,7 @@ profiles:
       selectors:
         - raw: 20601_GID1-4D2E3F1A6B7C8D9E
           carrier_name: Roamless
+          iso: BE
           conditions:
             - field: gid1
               match: prefix
@@ -153,12 +169,14 @@ profiles:
       selectors:
         - raw: 20601_ID-893207
           carrier_name: Telenet
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
               value: "893207"
         - raw: 20601_ID-89410
           carrier_name: Telenet
+          iso: BE
           conditions:
             - field: iccid
               match: prefix
@@ -168,6 +186,7 @@ profiles:
       selectors:
         - raw: 20601_ID-8956080
           carrier_name: vtr
+          iso: CL
           conditions:
             - field: iccid
               match: prefix

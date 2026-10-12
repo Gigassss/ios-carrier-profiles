@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "55201"
           carrier_name: PalauCel
+          iso: PW

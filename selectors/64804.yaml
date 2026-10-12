@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64804"
           carrier_name: ECONET
+          iso: ZW

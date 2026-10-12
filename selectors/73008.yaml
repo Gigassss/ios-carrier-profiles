@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "73008"
           carrier_name: vtr
+          iso: CL

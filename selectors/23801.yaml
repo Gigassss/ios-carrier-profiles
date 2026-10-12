@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 23801_GID1-6F
           carrier_name: GigSky
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "23801"
           carrier_name: TDC
+          iso: DK

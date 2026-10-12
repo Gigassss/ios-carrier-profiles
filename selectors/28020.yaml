@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "28020"
           carrier_name: PrimeTel
+          iso: CY

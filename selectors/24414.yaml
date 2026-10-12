@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "24414"
           carrier_name: ALCOM
+          iso: AX

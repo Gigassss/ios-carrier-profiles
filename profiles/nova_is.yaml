@@ -52,7 +52,6 @@ common:
                   type: v6
         ike:
             child_sa:
-                lifetime_seconds: 86400
                 proposals:
                     - source_branch: FirstChild
                       encryption:
@@ -63,7 +62,6 @@ common:
                       esn: auto
                       lifetime_seconds: 86400
             nat_keepalive_enabled: true
-            sa_lifetime_seconds: 86400
         ip_stack: ipv4
         media:
             rtcp_interval_seconds: 5

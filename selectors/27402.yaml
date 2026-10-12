@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "27402"
           carrier_name: SYN
+          iso: IS

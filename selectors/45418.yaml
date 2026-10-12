@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "45418"
           carrier_name: 1O1O / csl
+          iso: HK

@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 33402_ID-8950703
           carrier_name: CLARO PA
+          iso: PA
           conditions:
             - field: iccid
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "33402"
           carrier_name: Telcel
+          iso: MX

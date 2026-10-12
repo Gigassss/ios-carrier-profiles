@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 334020_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: MX
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 334020_ID-8950703
           carrier_name: CLARO PA
+          iso: PA
           conditions:
             - field: iccid
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 334020_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: MX
           conditions:
             - field: gid1
               match: prefix
@@ -33,12 +36,14 @@ profiles:
       selectors:
         - raw: 334020_GID1-ffffffffffffff4f5549
           carrier_name: OUI movil
+          iso: MX
           conditions:
             - field: gid1
               match: prefix
               value: FFFFFFFFFFFFFF4F5549
         - raw: 334020_GID2-ffffffffffffff4f5549
           carrier_name: OUI movil
+          iso: MX
           conditions:
             - field: gid2
               match: prefix
@@ -49,3 +54,4 @@ profiles:
       selectors:
         - raw: "334020"
           carrier_name: Telcel
+          iso: MX

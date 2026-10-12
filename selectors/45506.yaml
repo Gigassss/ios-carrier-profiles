@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "45506"
           carrier_name: SmarTone
+          iso: MO

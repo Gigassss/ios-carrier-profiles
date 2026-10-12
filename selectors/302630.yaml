@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "302630"
           carrier_name: Bell
+          iso: CA

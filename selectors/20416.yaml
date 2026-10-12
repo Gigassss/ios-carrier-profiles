@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "20416"
           carrier_name: Odido NL
+          iso: NL

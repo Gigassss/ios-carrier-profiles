@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 27201_GID1-FF
           carrier_name: vodafone IE
+          iso: IE
           conditions:
             - field: gid1
               match: prefix

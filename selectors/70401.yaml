@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "70401"
           carrier_name: Claro Guatemala
+          iso: GT

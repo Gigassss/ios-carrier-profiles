@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "33420"
           carrier_name: Telcel
+          iso: MX

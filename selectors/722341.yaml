@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "722341"
           carrier_name: Personal
+          iso: AR

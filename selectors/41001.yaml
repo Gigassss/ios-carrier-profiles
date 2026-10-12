@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41001"
           carrier_name: Jazz
+          iso: PK

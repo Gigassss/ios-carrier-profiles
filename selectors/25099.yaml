@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25099"
           carrier_name: Beeline
+          iso: RU

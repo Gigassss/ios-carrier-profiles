@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "70601"
           carrier_name: CLARO SV
+          iso: SV

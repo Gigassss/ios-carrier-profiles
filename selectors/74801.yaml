@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "74801"
           carrier_name: Antel
+          iso: UY

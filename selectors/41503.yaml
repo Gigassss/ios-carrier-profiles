@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41503"
           carrier_name: touch
+          iso: LB

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "36269"
           carrier_name: Digicel
+          iso: CW

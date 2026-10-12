@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "42602"
           carrier_name: Zain BH
+          iso: BH

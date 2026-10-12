@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 21402_ID-8959300
           carrier_name: movistar ec
+          iso: EC
           conditions:
             - field: iccid
               match: prefix
@@ -15,24 +16,28 @@ profiles:
       selectors:
         - raw: 21402_ID-895506
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895506"
         - raw: 21402_ID-895510
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895510"
         - raw: 21402_ID-895511
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895511"
         - raw: 21402_ID-895523
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix

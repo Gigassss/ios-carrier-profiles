@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "46601"
           carrier_name: 遠傳電信
+          iso: TW

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "24701"
           carrier_name: LMT
+          iso: LV

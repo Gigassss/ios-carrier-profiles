@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "20610"
           carrier_name: Orange B
+          iso: BE

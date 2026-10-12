@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23003"
           carrier_name: VF CZ
+          iso: CZ

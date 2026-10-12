@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "74807"
           carrier_name: Tigo
+          iso: UY

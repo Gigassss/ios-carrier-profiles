@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 23457_GID1-0409
           carrier_name: eSIM Go
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 23457_GID1-0C
           carrier_name: Sky
+          iso: GB
           conditions:
             - field: gid1
               match: prefix

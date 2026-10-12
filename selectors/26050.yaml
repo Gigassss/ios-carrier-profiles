@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 26050_GID1-0409
           carrier_name: eSIM Go
+          iso: PL
           conditions:
             - field: gid1
               match: prefix

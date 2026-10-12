@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "45008"
           carrier_name: KT
+          iso: KR

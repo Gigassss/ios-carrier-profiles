@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60503"
           carrier_name: Ooredoo TN
+          iso: TN

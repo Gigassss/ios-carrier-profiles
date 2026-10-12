@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "34001"
           carrier_name: Orange Caraibe
+          iso: MQ

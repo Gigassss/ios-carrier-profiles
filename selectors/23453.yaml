@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23453"
           carrier_name: Extend
+          iso: GB

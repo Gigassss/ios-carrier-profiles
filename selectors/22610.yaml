@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22610"
           carrier_name: Orange Romania
+          iso: RO

@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 21427_GID1-547275554B3030656E
           carrier_name: 1GLOBAL
+          iso: US
           conditions:
             - field: gid1
               match: prefix

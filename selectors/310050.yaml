@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 310050_ID-8901310050
           carrier_name: ACS
+          iso: US
           conditions:
             - field: iccid
               match: prefix

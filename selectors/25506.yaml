@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25506"
           carrier_name: lifecell
+          iso: UA

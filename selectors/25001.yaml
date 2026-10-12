@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25001"
           carrier_name: Mobile TeleSystems
+          iso: RU

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "33012"
           carrier_name: Open Mobile
+          iso: PR

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23223"
           carrier_name: Magenta-T-
+          iso: AT

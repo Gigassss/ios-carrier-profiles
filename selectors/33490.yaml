@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "33490"
           carrier_name: AT&T
+          iso: MX

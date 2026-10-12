@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23002"
           carrier_name: O2.CZ
+          iso: CZ

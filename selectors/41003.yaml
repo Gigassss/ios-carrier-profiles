@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41003"
           carrier_name: Ufone
+          iso: PK

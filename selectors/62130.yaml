@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "62130"
           carrier_name: MTN
+          iso: NG

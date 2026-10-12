@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 27877_GID1-3597bfd533
           carrier_name: DENT
+          iso: MT
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "27877"
           carrier_name: Melita
+          iso: MT

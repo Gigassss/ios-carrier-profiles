@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 21407_ID-895407
           carrier_name: Movistar
+          iso: AR
           conditions:
             - field: iccid
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 21407_ID-895602
           carrier_name: movistar
+          iso: CL
           conditions:
             - field: iccid
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8957123
           carrier_name: movistar
+          iso: CO
           conditions:
             - field: iccid
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8959300
           carrier_name: movistar ec
+          iso: EC
           conditions:
             - field: iccid
               match: prefix
@@ -42,6 +46,7 @@ profiles:
       selectors:
         - raw: 21407_ID-89502030
           carrier_name: Movistar
+          iso: GT
           conditions:
             - field: iccid
               match: prefix
@@ -51,6 +56,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8950530
           carrier_name: Tigo
+          iso: NI
           conditions:
             - field: iccid
               match: prefix
@@ -60,6 +66,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8950702
           carrier_name: TIGO
+          iso: PA
           conditions:
             - field: iccid
               match: prefix
@@ -69,6 +76,7 @@ profiles:
       selectors:
         - raw: 21407_ID-895106
           carrier_name: movistar
+          iso: PE
           conditions:
             - field: iccid
               match: prefix
@@ -78,6 +86,7 @@ profiles:
       selectors:
         - raw: 21407_ID-89503040
           carrier_name: movistar
+          iso: SV
           conditions:
             - field: iccid
               match: prefix
@@ -87,6 +96,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8959807
           carrier_name: Tigo
+          iso: UY
           conditions:
             - field: iccid
               match: prefix
@@ -96,6 +106,7 @@ profiles:
       selectors:
         - raw: 21407_ID-8929736301
           carrier_name: SETAR
+          iso: AW
           conditions:
             - field: iccid
               match: prefix
@@ -106,29 +117,34 @@ profiles:
       selectors:
         - raw: "21407"
           carrier_name: Movistar
+          iso: ES
     - id: apple_vivo_br
       path: profiles/vivo_br.yaml
       selectors:
         - raw: 21407_ID-895506
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895506"
         - raw: 21407_ID-895510
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895510"
         - raw: 21407_ID-895511
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix
               value: "895511"
         - raw: 21407_ID-895523
           carrier_name: VIVO
+          iso: BR
           conditions:
             - field: iccid
               match: prefix

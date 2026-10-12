@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "46689"
           carrier_name: 台灣之星
+          iso: TW

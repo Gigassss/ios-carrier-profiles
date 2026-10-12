@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "313110"
           carrier_name: FirstNet DPAC
+          iso: GU

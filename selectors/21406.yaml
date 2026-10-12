@@ -6,12 +6,14 @@ profiles:
       selectors:
         - raw: 21406_ID-89345710
           carrier_name: Lowi
+          iso: ES
           conditions:
             - field: iccid
               match: prefix
               value: "89345710"
         - raw: 21406_ID-89345712
           carrier_name: finetwork
+          iso: ES
           conditions:
             - field: iccid
               match: prefix

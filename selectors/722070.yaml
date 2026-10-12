@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "722070"
           carrier_name: Movistar
+          iso: AR

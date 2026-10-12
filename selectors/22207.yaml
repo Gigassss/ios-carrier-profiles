@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22207"
           carrier_name: Kena Mobile
+          iso: IT

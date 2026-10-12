@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "54501"
           carrier_name: Vodafone Kiribati
+          iso: KI

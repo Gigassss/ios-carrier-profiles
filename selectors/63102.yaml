@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "63102"
           carrier_name: UNITEL
+          iso: AO

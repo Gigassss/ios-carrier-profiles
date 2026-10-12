@@ -37,7 +37,6 @@ common:
                   type: v4
         ike:
             child_sa:
-                lifetime_seconds: 80000
                 proposals:
                     - source_branch: FirstChild
                       encryption:
@@ -69,7 +68,6 @@ common:
                   eap_method: EAP-AKA
             remote_certificate_authority_name: DigiCert Global Root G2
             remote_certificate_hostname: epdg.epc.mnc004.mcc204.pub.3gppnetwork.org
-            sa_lifetime_seconds: 80000
             username: 0$imsi@nai.epc.mnc004.mcc204.3gppnetwork.org
             validate_remote_certificate: true
         register:

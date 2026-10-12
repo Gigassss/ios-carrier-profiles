@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "63902"
           carrier_name: Safaricom
+          iso: KE

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "312290"
           carrier_name: STRATA
+          iso: US

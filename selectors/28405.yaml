@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "28405"
           carrier_name: Yettel
+          iso: BG

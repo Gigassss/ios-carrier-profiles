@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 45431_ID-893204
           carrier_name: BICS
+          iso: HK
           conditions:
             - field: iccid
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "45431"
           carrier_name: CTExcel
+          iso: HK

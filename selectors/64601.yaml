@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64601"
           carrier_name: Airtel
+          iso: MG

@@ -78,9 +78,7 @@ plmn_overrides:
                           esn: auto
                           install_policies: true
                           lifetime_seconds: 14400
-                    lifetime_seconds: 14400
                     replay_window_size: 12
-                sa_lifetime_seconds: 86400
             register:
                 use_ipsec: true
             signaling:

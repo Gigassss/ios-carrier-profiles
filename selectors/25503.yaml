@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25503"
           carrier_name: Kyivstar
+          iso: UA

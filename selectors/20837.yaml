@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 20837_GID1-434F423236303036
           carrier_name: UPeSIM
+          iso: FR
           conditions:
             - field: gid1
               match: prefix

@@ -6,12 +6,14 @@ profiles:
       selectors:
         - raw: 27002_GID1-1F
           carrier_name: Cellusina
+          iso: LU
           conditions:
             - field: gid1
               match: prefix
               value: 1F
         - raw: 27002_GID1-1FFFFFFFFFFFFFFFFFFF
           carrier_name: Cellusina
+          iso: LU
           conditions:
             - field: gid1
               match: prefix
@@ -22,3 +24,4 @@ profiles:
       selectors:
         - raw: "27002"
           carrier_name: MTXC
+          iso: LU

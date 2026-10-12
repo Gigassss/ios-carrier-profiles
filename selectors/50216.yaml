@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "50216"
           carrier_name: CelcomDigi
+          iso: MY

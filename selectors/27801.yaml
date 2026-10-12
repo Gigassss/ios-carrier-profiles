@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "27801"
           carrier_name: epic
+          iso: MT

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "43404"
           carrier_name: Beeline
+          iso: UZ

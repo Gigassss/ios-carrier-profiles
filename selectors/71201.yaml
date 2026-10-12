@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "71201"
           carrier_name: Kolbi ICE
+          iso: CR

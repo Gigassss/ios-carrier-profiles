@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "62160"
           carrier_name: 9mobile
+          iso: NG

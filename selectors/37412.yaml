@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "37412"
           carrier_name: bmobile
+          iso: TT

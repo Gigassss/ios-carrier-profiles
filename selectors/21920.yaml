@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "21920"
           carrier_name: HT HR
+          iso: HR

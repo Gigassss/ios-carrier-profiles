@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "41820"
           carrier_name: Zain
+          iso: IQ

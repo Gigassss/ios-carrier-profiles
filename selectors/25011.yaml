@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25011"
           carrier_name: YOTA
+          iso: RU

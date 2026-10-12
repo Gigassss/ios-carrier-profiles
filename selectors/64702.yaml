@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 64702_GID1-f004
           carrier_name: Only
+          iso: YT
           conditions:
             - field: gid1
               match: prefix

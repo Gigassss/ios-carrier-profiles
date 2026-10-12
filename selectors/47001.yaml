@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "47001"
           carrier_name: Grameenphone
+          iso: BD

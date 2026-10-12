@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "738002"
           carrier_name: ONE
+          iso: GY

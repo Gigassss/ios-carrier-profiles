@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22603"
           carrier_name: TELEKOM.RO
+          iso: RO

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "63301"
           carrier_name: CW Seychelles
+          iso: SC

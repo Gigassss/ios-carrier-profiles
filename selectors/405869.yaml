@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "405869"
           carrier_name: Jio
+          iso: IN

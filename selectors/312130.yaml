@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "312130"
           carrier_name: Appalachian
+          iso: US

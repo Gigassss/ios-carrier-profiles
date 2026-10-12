@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "28301"
           carrier_name: Team Telecom Armenia
+          iso: AM

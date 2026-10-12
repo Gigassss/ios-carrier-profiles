@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "54927"
           carrier_name: BlueSky
+          iso: WS

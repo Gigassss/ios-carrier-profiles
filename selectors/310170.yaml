@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 310170_GID1-2A
           carrier_name: CC
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 310170_GID1-62
           carrier_name: PURE TALK
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 310170_GID1-DE
           carrier_name: TFW
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -34,3 +37,4 @@ profiles:
       selectors:
         - raw: "310170"
           carrier_name: AT&T
+          iso: US

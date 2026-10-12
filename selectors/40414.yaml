@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "40414"
           carrier_name: Vi
+          iso: IN

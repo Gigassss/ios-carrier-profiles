@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "21601"
           carrier_name: Yettel HU
+          iso: HU

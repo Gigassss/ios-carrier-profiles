@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "722310"
           carrier_name: Claro AR
+          iso: AR

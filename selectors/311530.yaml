@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 311530_GID1-5054
           carrier_name: PTCI
+          iso: US
           conditions:
             - field: gid1
               match: prefix

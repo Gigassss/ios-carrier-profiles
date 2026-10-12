@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60501"
           carrier_name: Orange Tunisia
+          iso: TN

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "27821"
           carrier_name: go mobile
+          iso: MT

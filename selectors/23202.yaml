@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23202"
           carrier_name: A1
+          iso: AT

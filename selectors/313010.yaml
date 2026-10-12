@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "313010"
           carrier_name: Bravado Wireless
+          iso: US

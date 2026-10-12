@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "37002"
           carrier_name: Claro Dominicana
+          iso: DO

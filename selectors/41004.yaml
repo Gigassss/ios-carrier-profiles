@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 41004_ID-8985234
           carrier_name: CMLink
+          iso: PK
           conditions:
             - field: iccid
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "41004"
           carrier_name: Zong
+          iso: PK

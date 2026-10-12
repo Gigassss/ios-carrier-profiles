@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "62007"
           carrier_name: GLO
+          iso: GH

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64604"
           carrier_name: TELMA
+          iso: MG

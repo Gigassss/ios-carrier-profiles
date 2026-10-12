@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "40497"
           carrier_name: AirTel
+          iso: IN

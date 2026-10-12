@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "71403"
           carrier_name: CLARO PA
+          iso: PA

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23408"
           carrier_name: BT-OP
+          iso: GB

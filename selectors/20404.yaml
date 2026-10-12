@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 20404_ID-8957732
           carrier_name: Avantel
+          iso: CO
           conditions:
             - field: iccid
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 20404_ID-890123
           carrier_name: C Spire
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 20404_ID-898611
           carrier_name: 中国电信
+          iso: CN
           conditions:
             - field: iccid
               match: prefix
@@ -33,12 +36,14 @@ profiles:
       selectors:
         - raw: 20404_ID-8985231
           carrier_name: 中国电信
+          iso: MO
           conditions:
             - field: iccid
               match: prefix
               value: "8985231"
         - raw: 20404_ID-8985307
           carrier_name: 中国电信
+          iso: MO
           conditions:
             - field: iccid
               match: prefix
@@ -48,6 +53,7 @@ profiles:
       selectors:
         - raw: 20404_GID1-6F
           carrier_name: GigSky
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -57,6 +63,7 @@ profiles:
       selectors:
         - raw: 20404_ID-894707
           carrier_name: Ice Norway
+          iso: "NO"
           conditions:
             - field: iccid
               match: prefix
@@ -66,6 +73,7 @@ profiles:
       selectors:
         - raw: 20404_ID-890177
           carrier_name: iWireless
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -75,6 +83,7 @@ profiles:
       selectors:
         - raw: 20404_ID-8997207
           carrier_name: HOT mobile
+          iso: IL
           conditions:
             - field: iccid
               match: prefix
@@ -84,6 +93,7 @@ profiles:
       selectors:
         - raw: 20404_ID-8997250
           carrier_name: Pelephone
+          iso: IL
           conditions:
             - field: iccid
               match: prefix
@@ -93,6 +103,7 @@ profiles:
       selectors:
         - raw: 20404_ID-89302780
           carrier_name: SaskTel
+          iso: CA
           conditions:
             - field: iccid
               match: prefix
@@ -102,6 +113,7 @@ profiles:
       selectors:
         - raw: 20404_GID1-547275554B3030656E
           carrier_name: 1GLOBAL
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -111,12 +123,14 @@ profiles:
       selectors:
         - raw: 20404_ID-8901580
           carrier_name: UScellular
+          iso: US
           conditions:
             - field: iccid
               match: prefix
               value: "8901580"
         - raw: 20404_ID-8901589
           carrier_name: UScellular
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -126,6 +140,7 @@ profiles:
       selectors:
         - raw: 20404_GID2-A7_ID-891480
           carrier_name: Spectrum
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -138,6 +153,7 @@ profiles:
       selectors:
         - raw: 20404_ID-891480
           carrier_name: Verizon
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -147,6 +163,7 @@ profiles:
       selectors:
         - raw: 20404_GID2-1B_ID-891480
           carrier_name: Verizon Response
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -159,6 +176,7 @@ profiles:
       selectors:
         - raw: 20404_GID2-A9_ID-891480
           carrier_name: Ting
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -171,6 +189,7 @@ profiles:
       selectors:
         - raw: 20404_GID2-1A_ID-891480
           carrier_name: Visible
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -183,6 +202,7 @@ profiles:
       selectors:
         - raw: 20404_ID-89302500
           carrier_name: Videotron
+          iso: CA
           conditions:
             - field: iccid
               match: prefix
@@ -193,11 +213,13 @@ profiles:
       selectors:
         - raw: "20404"
           carrier_name: vf nl
+          iso: NL
     - id: apple_vodafone_qa
       path: profiles/vodafone_qa.yaml
       selectors:
         - raw: 20404_ID-8942702
           carrier_name: Vodafone QA
+          iso: QA
           conditions:
             - field: iccid
               match: prefix
@@ -207,6 +229,7 @@ profiles:
       selectors:
         - raw: 20404_ID-8985235
           carrier_name: Webbing
+          iso: NL
           conditions:
             - field: iccid
               match: prefix
@@ -216,6 +239,7 @@ profiles:
       selectors:
         - raw: 20404_ID-89302130
           carrier_name: Xplore
+          iso: CA
           conditions:
             - field: iccid
               match: prefix

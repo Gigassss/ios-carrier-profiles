@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64004"
           carrier_name: VodaCom
+          iso: TZ

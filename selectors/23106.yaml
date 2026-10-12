@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23106"
           carrier_name: O2 - SK
+          iso: SK

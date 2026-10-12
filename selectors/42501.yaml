@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 42501_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 42501_GID1-626e6573696d31
           carrier_name: bne
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 42501_GID1-3597bfd533
           carrier_name: DENT
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 42501_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +46,7 @@ profiles:
       selectors:
         - raw: 42501_GID1-9601
           carrier_name: MultiByte
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -52,11 +57,13 @@ profiles:
       selectors:
         - raw: "42501"
           carrier_name: Partner
+          iso: IL
     - id: apple_primemobile
       path: profiles/primemobile.yaml
       selectors:
         - raw: 42501_GID1-2636
           carrier_name: Prime Mobile
+          iso: IL
           conditions:
             - field: gid1
               match: prefix
@@ -66,6 +73,7 @@ profiles:
       selectors:
         - raw: 42501_ID-89852245280
           carrier_name: RedteaMobile
+          iso: IL
           conditions:
             - field: iccid
               match: prefix
@@ -75,6 +83,7 @@ profiles:
       selectors:
         - raw: 42501_ID-8985235
           carrier_name: Webbing
+          iso: IL
           conditions:
             - field: iccid
               match: prefix

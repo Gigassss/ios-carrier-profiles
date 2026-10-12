@@ -92,13 +92,11 @@ plmn_overrides:
                           esn: auto
                           install_policies: true
                           lifetime_seconds: 43200
-                    lifetime_seconds: 43200
                     replay_window_size: 12
                 local_identifier: 0$imsi@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org
                 local_identifier_type: IDUserFQDN
                 remote_identifier_type: IDFQDN
                 validate_remote_certificate: false
-                sa_lifetime_seconds: 43200
             register:
                 use_ipsec: true
                 include_cellular_network_info: false

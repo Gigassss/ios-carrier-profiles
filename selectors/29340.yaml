@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "29340"
           carrier_name: A1 SI
+          iso: SI

@@ -7,8 +7,10 @@ profiles:
       selectors:
         - raw: "21890"
           carrier_name: BH Mobile
+          iso: BA
         - raw: 21890_ID-89387010
           carrier_name: BH Mobile
+          iso: BA
           conditions:
             - field: iccid
               match: prefix

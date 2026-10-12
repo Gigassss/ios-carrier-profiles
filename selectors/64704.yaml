@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "64704"
           carrier_name: Zeop
+          iso: RE

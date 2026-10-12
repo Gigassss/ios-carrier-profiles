@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "47201"
           carrier_name: DHIRAAGU
+          iso: MV

@@ -36,5 +36,3 @@ plmn_overrides:
                           rekey_pfs_group: 2
                           esn: auto
                           lifetime_seconds: 86400
-                    lifetime_seconds: 86400
-                sa_lifetime_seconds: 80000

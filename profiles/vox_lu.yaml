@@ -50,8 +50,6 @@ plmn_overrides:
                           rekey_pfs_group: 5
                           esn: auto
                           lifetime_seconds: 80000
-                    lifetime_seconds: 80000
-                sa_lifetime_seconds: 80000
             register:
                 use_ipsec: true
                 include_cellular_network_info: false

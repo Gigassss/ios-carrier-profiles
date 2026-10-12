@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 44011_GID1-3597bfd533
           carrier_name: DENT
+          iso: JP
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "44011"
           carrier_name: Rakuten
+          iso: JP

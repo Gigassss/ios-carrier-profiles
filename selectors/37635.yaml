@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "37635"
           carrier_name: FLOW
+          iso: TC

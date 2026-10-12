@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 23420_GID1-0305
           carrier_name: iD
+          iso: GB
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "23420"
           carrier_name: Three
+          iso: GB

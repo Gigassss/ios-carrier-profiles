@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "26278"
           carrier_name: Telekom.de
+          iso: DE

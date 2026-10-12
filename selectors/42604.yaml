@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "42604"
           carrier_name: stc
+          iso: BH

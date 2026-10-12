@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "302270"
           carrier_name: Eastlink
+          iso: CA

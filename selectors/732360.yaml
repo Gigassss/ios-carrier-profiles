@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "732360"
           carrier_name: WOM
+          iso: CO

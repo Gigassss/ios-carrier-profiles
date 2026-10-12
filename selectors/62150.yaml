@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "62150"
           carrier_name: glo
+          iso: NG

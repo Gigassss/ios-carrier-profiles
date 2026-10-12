@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "54101"
           carrier_name: SMILE
+          iso: VU

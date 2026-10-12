@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-2A
           carrier_name: CC
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-3432
           carrier_name: ATT Dish MVNO US
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -24,18 +26,21 @@ profiles:
       selectors:
         - raw: 310280_GID1-20FF
           carrier_name: ATT MVNO US
+          iso: US
           conditions:
             - field: gid1
               match: prefix
               value: 20FF
         - raw: 310280_GID1-4102
           carrier_name: ATT MVNO US
+          iso: US
           conditions:
             - field: gid1
               match: prefix
               value: "4102"
         - raw: 310280_GID1-44FF
           carrier_name: ATT MVNO US
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -45,12 +50,14 @@ profiles:
       selectors:
         - raw: 310280_GID1-52FF
           carrier_name: AT&T
+          iso: US
           conditions:
             - field: gid1
               match: prefix
               value: 52FF
         - raw: 310280_GID1-53FF
           carrier_name: AT&T
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -60,6 +67,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-62
           carrier_name: PURE TALK
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -69,6 +77,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-42
           carrier_name: RedPocket
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -78,6 +87,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-DE
           carrier_name: TFW
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -87,6 +97,7 @@ profiles:
       selectors:
         - raw: 310280_GID1-FFFF
           carrier_name: AT&T
+          iso: US
           conditions:
             - field: gid1
               match: prefix

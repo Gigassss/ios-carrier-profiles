@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 29505_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: LI
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 29505_GID1-616972616c6f31
           carrier_name: Airalo
+          iso: LI
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 29505_GID1-626e6573696d31
           carrier_name: bne
+          iso: LI
           conditions:
             - field: gid1
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 29505_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: LI
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +46,7 @@ profiles:
       selectors:
         - raw: 29505_GID1-434F423236303036
           carrier_name: UPeSIM
+          iso: LI
           conditions:
             - field: gid1
               match: prefix
@@ -51,6 +56,7 @@ profiles:
       selectors:
         - raw: 29505_ID-89852245280
           carrier_name: RedteaMobile
+          iso: LI
           conditions:
             - field: iccid
               match: prefix
@@ -60,6 +66,7 @@ profiles:
       selectors:
         - raw: 29505_ID-8942310
           carrier_name: SORACOM
+          iso: LI
           conditions:
             - field: iccid
               match: prefix
@@ -70,3 +77,4 @@ profiles:
       selectors:
         - raw: "29505"
           carrier_name: FL1
+          iso: LI

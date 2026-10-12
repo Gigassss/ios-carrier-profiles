@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "45602"
           carrier_name: Smart
+          iso: KH

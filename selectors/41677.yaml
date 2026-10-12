@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 41677_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: JO
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 41677_GID1-626e6573696d31
           carrier_name: bne
+          iso: JO
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 41677_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: JO
           conditions:
             - field: gid1
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 41677_GID1-434F423236303036
           carrier_name: UPeSIM
+          iso: JO
           conditions:
             - field: gid1
               match: prefix
@@ -43,11 +47,13 @@ profiles:
       selectors:
         - raw: "41677"
           carrier_name: Orange Jordan
+          iso: JO
     - id: apple_redteamobile
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 41677_ID-89852245280
           carrier_name: RedteaMobile
+          iso: JO
           conditions:
             - field: iccid
               match: prefix

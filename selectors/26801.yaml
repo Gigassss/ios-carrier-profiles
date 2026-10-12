@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "26801"
           carrier_name: vodafone P
+          iso: PT

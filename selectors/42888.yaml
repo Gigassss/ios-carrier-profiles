@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "42888"
           carrier_name: Unitel
+          iso: MN

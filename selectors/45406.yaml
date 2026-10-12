@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 45406_ID-8985234
           carrier_name: CMLink
+          iso: HK
           conditions:
             - field: iccid
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 45406_GID1-58300_GID2-58301
           carrier_name: MultiByte
+          iso: HK
           conditions:
             - field: gid1
               match: prefix
@@ -27,6 +29,7 @@ profiles:
       selectors:
         - raw: 45406_ID-89852245280
           carrier_name: RedteaMobile
+          iso: HK
           conditions:
             - field: iccid
               match: prefix
@@ -37,11 +40,13 @@ profiles:
       selectors:
         - raw: "45406"
           carrier_name: SMC HK
+          iso: HK
     - id: apple_smartone_hkbn_hk
       path: profiles/smartone_hkbn_hk.yaml
       selectors:
         - raw: 45406_GID1-0009
           carrier_name: HKBN
+          iso: HK
           conditions:
             - field: gid1
               match: prefix

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23433"
           carrier_name: EE
+          iso: GB

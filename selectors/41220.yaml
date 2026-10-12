@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 41220_ID-8993200
           carrier_name: Roshan
+          iso: AF
           conditions:
             - field: iccid
               match: prefix

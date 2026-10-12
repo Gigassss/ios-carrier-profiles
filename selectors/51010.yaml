@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 51010_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: ID
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "51010"
           carrier_name: Telkomsel
+          iso: ID

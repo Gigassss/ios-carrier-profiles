@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "20210"
           carrier_name: NOVA
+          iso: GR

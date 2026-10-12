@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "71404"
           carrier_name: Digicel
+          iso: PA

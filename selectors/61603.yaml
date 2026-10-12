@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "61603"
           carrier_name: MTN
+          iso: BJ

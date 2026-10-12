@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "24202"
           carrier_name: Telia N
+          iso: "NO"

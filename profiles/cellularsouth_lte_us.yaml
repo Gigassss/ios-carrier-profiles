@@ -80,7 +80,6 @@ common:
                   type: v6
         ike:
             child_sa:
-                lifetime_seconds: 86400
                 proposals:
                     - source_branch: FirstChild
                       encryption:
@@ -112,7 +111,6 @@ common:
                   authentication_method: None
                   eap_method: EAP-AKA
             remote_identifier_type: IDFQDN
-            sa_lifetime_seconds: 80000
             validate_remote_certificate: false
         impi_format: imsi@carrierDomain
         impu_format: imsi@carrierDomain

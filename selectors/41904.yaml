@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 41904_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: KW
           conditions:
             - field: gid1
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "41904"
           carrier_name: stc KW
+          iso: KW

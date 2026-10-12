@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "74000"
           carrier_name: movistar ec
+          iso: EC

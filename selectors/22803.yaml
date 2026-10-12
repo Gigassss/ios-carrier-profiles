@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22803"
           carrier_name: Salt
+          iso: CH

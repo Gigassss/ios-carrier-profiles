@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 29510_ID-8942310
           carrier_name: SORACOM
+          iso: LI
           conditions:
             - field: iccid
               match: prefix

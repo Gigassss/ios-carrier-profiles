@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "71617"
           carrier_name: Entel
+          iso: PE

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "52802"
           carrier_name: Progresif
+          iso: BN

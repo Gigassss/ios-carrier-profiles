@@ -113,9 +113,7 @@ plmn_overrides:
                           install_policies: true
                           secure_rekey: false
                           lifetime_seconds: 86400
-                    lifetime_seconds: 86400
                 local_identifier: 0$impi_user@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org
-                sa_lifetime_seconds: 80000
             signaling:
                 preconditions: unsupported
                 support_p_early_media: false

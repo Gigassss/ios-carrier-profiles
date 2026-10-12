@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "33403"
           carrier_name: movistar
+          iso: MX

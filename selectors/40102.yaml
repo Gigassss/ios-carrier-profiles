@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "40102"
           carrier_name: Kcell
+          iso: KZ

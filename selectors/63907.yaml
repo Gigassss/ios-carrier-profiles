@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "63907"
           carrier_name: Telkom
+          iso: KE

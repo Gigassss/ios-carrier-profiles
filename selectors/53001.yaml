@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "53001"
           carrier_name: One NZ
+          iso: NZ

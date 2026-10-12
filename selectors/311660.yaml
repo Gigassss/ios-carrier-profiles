@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "311660"
           carrier_name: T-Mobile Private Network
+          iso: US

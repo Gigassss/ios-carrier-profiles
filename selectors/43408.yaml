@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "43408"
           carrier_name: Uztelecom
+          iso: UZ

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "310370"
           carrier_name: DOCOMO PACIFIC
+          iso: GU

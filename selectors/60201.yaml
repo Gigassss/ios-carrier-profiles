@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60201"
           carrier_name: Orange
+          iso: EG

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "310110"
           carrier_name: IT&E
+          iso: GU

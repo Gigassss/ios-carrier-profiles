@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 20809_GID1-616C6F73696D31
           carrier_name: aloSIM
+          iso: FR
           conditions:
             - field: gid1
               match: prefix
@@ -15,6 +16,7 @@ profiles:
       selectors:
         - raw: 20809_ID-893135
           carrier_name: Airalo
+          iso: FR
           conditions:
             - field: iccid
               match: prefix
@@ -24,6 +26,7 @@ profiles:
       selectors:
         - raw: 20809_ID-891364049
           carrier_name: aliv
+          iso: BS
           conditions:
             - field: iccid
               match: prefix
@@ -33,6 +36,7 @@ profiles:
       selectors:
         - raw: 20809_ID-8901390
           carrier_name: Optimum
+          iso: US
           conditions:
             - field: iccid
               match: prefix
@@ -42,6 +46,7 @@ profiles:
       selectors:
         - raw: 20809_ID-893204
           carrier_name: BICS
+          iso: FR
           conditions:
             - field: iccid
               match: prefix
@@ -51,6 +56,7 @@ profiles:
       selectors:
         - raw: 20809_ID-893327
           carrier_name: Coriolis
+          iso: FR
           conditions:
             - field: iccid
               match: prefix
@@ -60,6 +66,7 @@ profiles:
       selectors:
         - raw: 20809_GID1-0409
           carrier_name: eSIM Go
+          iso: FR
           conditions:
             - field: gid1
               match: prefix
@@ -69,6 +76,7 @@ profiles:
       selectors:
         - raw: 20809_GID1-6F
           carrier_name: GigSky
+          iso: US
           conditions:
             - field: gid1
               match: prefix
@@ -78,6 +86,7 @@ profiles:
       selectors:
         - raw: 20809_GID1-636f6e6e65637431
           carrier_name: Connect
+          iso: FR
           conditions:
             - field: gid1
               match: prefix
@@ -87,6 +96,7 @@ profiles:
       selectors:
         - raw: 20809_ID-8997207
           carrier_name: HOT mobile
+          iso: IL
           conditions:
             - field: iccid
               match: prefix
@@ -96,18 +106,21 @@ profiles:
       selectors:
         - raw: 20809_ID-8959002
           carrier_name: SFR
+          iso: MQ
           conditions:
             - field: iccid
               match: prefix
               value: "8959002"
         - raw: 20809_ID-8959402
           carrier_name: SFR
+          iso: MQ
           conditions:
             - field: iccid
               match: prefix
               value: "8959402"
         - raw: 20809_ID-8959602
           carrier_name: SFR
+          iso: MQ
           conditions:
             - field: iccid
               match: prefix
@@ -117,12 +130,14 @@ profiles:
       selectors:
         - raw: 20809_ID-89331065
           carrier_name: SFR
+          iso: RE
           conditions:
             - field: iccid
               match: prefix
               value: "89331065"
         - raw: 20809_ID-89331085
           carrier_name: SFR
+          iso: RE
           conditions:
             - field: iccid
               match: prefix
@@ -132,12 +147,14 @@ profiles:
       selectors:
         - raw: 20809_ID-892004
           carrier_name: we
+          iso: EG
           conditions:
             - field: iccid
               match: prefix
               value: "892004"
         - raw: 20809_ID-89204
           carrier_name: we
+          iso: EG
           conditions:
             - field: iccid
               match: prefix
@@ -147,6 +164,7 @@ profiles:
       selectors:
         - raw: 20809_GID1-547275554B3030656E
           carrier_name: 1GLOBAL
+          iso: US
           conditions:
             - field: gid1
               match: prefix

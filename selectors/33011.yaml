@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "33011"
           carrier_name: Claro Puerto Rico
+          iso: PR

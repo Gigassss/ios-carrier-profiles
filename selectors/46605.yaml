@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "46605"
           carrier_name: GT
+          iso: TW

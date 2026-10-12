@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "28305"
           carrier_name: Viva
+          iso: AM

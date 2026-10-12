@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "25501"
           carrier_name: Vodafone UA
+          iso: UA

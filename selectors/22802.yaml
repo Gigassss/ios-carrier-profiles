@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22802"
           carrier_name: Sunrise
+          iso: CH

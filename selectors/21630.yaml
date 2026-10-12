@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "21630"
           carrier_name: Telekom HU
+          iso: HU

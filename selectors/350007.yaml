@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "350007"
           carrier_name: Paradise
+          iso: BM

@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60301"
           carrier_name: Mobilis
+          iso: DZ

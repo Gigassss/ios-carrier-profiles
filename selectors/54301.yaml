@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "54301"
           carrier_name: Manuia
+          iso: WF

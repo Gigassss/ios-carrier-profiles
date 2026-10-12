@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "54201"
           carrier_name: Vodafone
+          iso: FJ

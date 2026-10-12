@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "34003"
           carrier_name: CHIPPIE
+          iso: MF

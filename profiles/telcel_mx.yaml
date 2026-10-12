@@ -49,7 +49,6 @@ common:
                   type: v6
         ike:
             child_sa:
-                lifetime_seconds: 87000
                 proposals:
                     - source_branch: FirstChild
                       encryption:
@@ -79,7 +78,6 @@ common:
                   lifetime_seconds: 87000
                   authentication_method: None
                   eap_method: EAP-AKA
-            sa_lifetime_seconds: 87000
         ip_stack: ipv6
         media:
             rtcp_inactivity_seconds: 25

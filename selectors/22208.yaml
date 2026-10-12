@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "22208"
           carrier_name: Fastweb
+          iso: IT

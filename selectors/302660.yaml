@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "302660"
           carrier_name: MTS
+          iso: CA

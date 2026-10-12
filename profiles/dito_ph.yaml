@@ -1,0 +1,40 @@
+version: 3
+kind: carrier_bundle
+id: apple_dito_ph
+bundle: Dito_ph.bundle
+supported_plmns:
+    - "51566"
+plmn_overrides:
+    "51566":
+        ims:
+            apn: ims
+            ip_stack: ipv4
+            epdg:
+                address: epdg.epc.mnc066.mcc515.pub.3gppnetwork.org
+            ike:
+                proposals:
+                    - encryption:
+                        - aes128
+                      integrity:
+                        - sha1
+                      prf:
+                        - sha1
+                      dh_groups:
+                        - 2
+                      authentication_method: None
+                      eap_method: EAP-AKA
+                nat_keepalive_seconds: 20
+                child_sa:
+                    proposals:
+                        - source_branch: FirstChild
+                          encryption:
+                            - aes128
+                          integrity:
+                            - sha1
+                    replay_window_size: 32
+            register:
+                use_ipsec: true
+                include_cellular_network_info: true
+                expires: 7200
+            volte:
+                enable_volte_by_default: true

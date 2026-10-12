@@ -6,6 +6,7 @@ profiles:
       selectors:
         - raw: 311650_GID2-10FD
           carrier_name: PTCI
+          iso: US
           conditions:
             - field: gid2
               match: prefix
@@ -16,3 +17,4 @@ profiles:
       selectors:
         - raw: "311650"
           carrier_name: United
+          iso: US

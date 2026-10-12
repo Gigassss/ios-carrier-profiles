@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "60303"
           carrier_name: Ooredoo
+          iso: DZ

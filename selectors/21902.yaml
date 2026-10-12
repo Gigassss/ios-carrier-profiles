@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "21902"
           carrier_name: TM HR
+          iso: HR

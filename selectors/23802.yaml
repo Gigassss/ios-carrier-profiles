@@ -7,3 +7,4 @@ profiles:
       selectors:
         - raw: "23802"
           carrier_name: Telenor DK
+          iso: DK
