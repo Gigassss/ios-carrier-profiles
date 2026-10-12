@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 22201_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,16 +14,19 @@ profiles:
       path: profiles/algar_br.yaml
       selectors:
         - raw: 22201_ID-895532
+          carrier_name: Algar
           conditions:
             - field: iccid
               match: prefix
               value: "895532"
         - raw: 22201_ID-895533
+          carrier_name: Algar
           conditions:
             - field: iccid
               match: prefix
               value: "895533"
         - raw: 22201_ID-895534
+          carrier_name: Algar
           conditions:
             - field: iccid
               match: prefix
@@ -31,6 +35,7 @@ profiles:
       path: profiles/cmcc_cmi.yaml
       selectors:
         - raw: 22201_ID-8985234
+          carrier_name: CMLink
           conditions:
             - field: iccid
               match: prefix
@@ -39,6 +44,7 @@ profiles:
       path: profiles/gigsky_us.yaml
       selectors:
         - raw: 22201_GID1-6F
+          carrier_name: GigSky
           conditions:
             - field: gid1
               match: prefix
@@ -47,6 +53,7 @@ profiles:
       path: profiles/iusacell_mx.yaml
       selectors:
         - raw: 22201_ID-8952050
+          carrier_name: AT&T
           conditions:
             - field: iccid
               match: prefix
@@ -55,6 +62,7 @@ profiles:
       path: profiles/iusacell_unefon_mx.yaml
       selectors:
         - raw: 22201_GID2-FFFFFF55_ID-8952050
+          carrier_name: UNEFON
           conditions:
             - field: gid2
               match: prefix
@@ -66,6 +74,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 22201_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -74,6 +83,7 @@ profiles:
       path: profiles/nova_is.yaml
       selectors:
         - raw: 22201_ID-8935411
+          carrier_name: NOVA
           conditions:
             - field: iccid
               match: prefix
@@ -82,6 +92,7 @@ profiles:
       path: profiles/primetel_cy.yaml
       selectors:
         - raw: 22201_ID-8935720
+          carrier_name: PrimeTel
           conditions:
             - field: iccid
               match: prefix
@@ -90,6 +101,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 22201_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -98,111 +110,133 @@ profiles:
       path: profiles/reliancejio_in.yaml
       selectors:
         - raw: 22201_ID-8991840
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991840"
         - raw: 22201_ID-8991854
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991854"
         - raw: 22201_ID-8991855
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991855"
         - raw: 22201_ID-8991856
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991856"
         - raw: 22201_ID-8991857
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991857"
         - raw: 22201_ID-8991858
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991858"
         - raw: 22201_ID-8991859
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991859"
         - raw: 22201_ID-8991860
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991860"
         - raw: 22201_ID-8991861
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991861"
         - raw: 22201_ID-8991862
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991862"
         - raw: 22201_ID-8991863
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991863"
         - raw: 22201_ID-8991864
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991864"
         - raw: 22201_ID-8991865
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991865"
         - raw: 22201_ID-8991866
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991866"
         - raw: 22201_ID-8991867
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991867"
         - raw: 22201_ID-8991868
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991868"
         - raw: 22201_ID-8991869
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991869"
         - raw: 22201_ID-8991870
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991870"
         - raw: 22201_ID-8991871
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991871"
         - raw: 22201_ID-8991872
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991872"
         - raw: 22201_ID-8991873
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
               value: "8991873"
         - raw: 22201_ID-8991874
+          carrier_name: Jio
           conditions:
             - field: iccid
               match: prefix
@@ -211,6 +245,7 @@ profiles:
       path: profiles/tango.yaml
       selectors:
         - raw: 22201_ID-894453
+          carrier_name: Extend
           conditions:
             - field: iccid
               match: prefix
@@ -220,10 +255,12 @@ profiles:
       generic: true
       selectors:
         - raw: "22201"
+          carrier_name: TIM
     - id: apple_tim_kena_it
       path: profiles/tim_kena_it.yaml
       selectors:
         - raw: 22201_ID-893907
+          carrier_name: Kena Mobile
           conditions:
             - field: iccid
               match: prefix
@@ -232,6 +269,7 @@ profiles:
       path: profiles/webbing.yaml
       selectors:
         - raw: 22201_ID-8985235
+          carrier_name: Webbing
           conditions:
             - field: iccid
               match: prefix

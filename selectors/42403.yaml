@@ -6,10 +6,12 @@ profiles:
       generic: true
       selectors:
         - raw: "42403"
+          carrier_name: du
     - id: apple_du_virgin_ae
       path: profiles/du_virgin_ae.yaml
       selectors:
         - raw: 42403_ID-89971031010
+          carrier_name: Virgin
           conditions:
             - field: iccid
               match: prefix

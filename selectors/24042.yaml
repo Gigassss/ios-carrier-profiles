@@ -5,6 +5,7 @@ profiles:
       path: profiles/uros.yaml
       selectors:
         - raw: 24042_GID1-C5
+          carrier_name: Goodspeed
           conditions:
             - field: gid1
               match: prefix

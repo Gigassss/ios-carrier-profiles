@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "26203"
+          carrier_name: o2-de

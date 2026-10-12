@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "61602"
+          carrier_name: Etisalat

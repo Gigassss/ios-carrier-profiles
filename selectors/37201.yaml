@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "37201"
+          carrier_name: Digicel

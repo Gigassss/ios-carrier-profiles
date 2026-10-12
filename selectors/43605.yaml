@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "43605"
+          carrier_name: ZET-MOBILE

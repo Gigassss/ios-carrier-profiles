@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "46697"
+          carrier_name: 台灣大哥大

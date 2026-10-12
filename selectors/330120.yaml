@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "330120"
+          carrier_name: Open Mobile

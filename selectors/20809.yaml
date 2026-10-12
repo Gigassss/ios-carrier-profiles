@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 20809_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 20809_ID-893135
+          carrier_name: Airalo
           conditions:
             - field: iccid
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/aliv_bs.yaml
       selectors:
         - raw: 20809_ID-891364049
+          carrier_name: aliv
           conditions:
             - field: iccid
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/altice_lte_us.yaml
       selectors:
         - raw: 20809_ID-8901390
+          carrier_name: Optimum
           conditions:
             - field: iccid
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/bics.yaml
       selectors:
         - raw: 20809_ID-893204
+          carrier_name: BICS
           conditions:
             - field: iccid
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/coriolis_fr.yaml
       selectors:
         - raw: 20809_ID-893327
+          carrier_name: Coriolis
           conditions:
             - field: iccid
               match: prefix
@@ -53,6 +59,7 @@ profiles:
       path: profiles/esimgo.yaml
       selectors:
         - raw: 20809_GID1-0409
+          carrier_name: eSIM Go
           conditions:
             - field: gid1
               match: prefix
@@ -61,6 +68,7 @@ profiles:
       path: profiles/gigsky_us.yaml
       selectors:
         - raw: 20809_GID1-6F
+          carrier_name: GigSky
           conditions:
             - field: gid1
               match: prefix
@@ -69,6 +77,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 20809_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -77,6 +86,7 @@ profiles:
       path: profiles/mirs_il.yaml
       selectors:
         - raw: 20809_ID-8997207
+          carrier_name: HOT mobile
           conditions:
             - field: iccid
               match: prefix
@@ -85,16 +95,19 @@ profiles:
       path: profiles/sfr_caraibe_mq.yaml
       selectors:
         - raw: 20809_ID-8959002
+          carrier_name: SFR
           conditions:
             - field: iccid
               match: prefix
               value: "8959002"
         - raw: 20809_ID-8959402
+          carrier_name: SFR
           conditions:
             - field: iccid
               match: prefix
               value: "8959402"
         - raw: 20809_ID-8959602
+          carrier_name: SFR
           conditions:
             - field: iccid
               match: prefix
@@ -103,11 +116,13 @@ profiles:
       path: profiles/sfr_re.yaml
       selectors:
         - raw: 20809_ID-89331065
+          carrier_name: SFR
           conditions:
             - field: iccid
               match: prefix
               value: "89331065"
         - raw: 20809_ID-89331085
+          carrier_name: SFR
           conditions:
             - field: iccid
               match: prefix
@@ -116,11 +131,13 @@ profiles:
       path: profiles/telecomegypt_eg.yaml
       selectors:
         - raw: 20809_ID-892004
+          carrier_name: we
           conditions:
             - field: iccid
               match: prefix
               value: "892004"
         - raw: 20809_ID-89204
+          carrier_name: we
           conditions:
             - field: iccid
               match: prefix
@@ -129,6 +146,7 @@ profiles:
       path: profiles/truphone_us.yaml
       selectors:
         - raw: 20809_GID1-547275554B3030656E
+          carrier_name: 1GLOBAL
           conditions:
             - field: gid1
               match: prefix

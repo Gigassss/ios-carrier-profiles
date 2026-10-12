@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "71230"
+          carrier_name: Claro Costa Rica

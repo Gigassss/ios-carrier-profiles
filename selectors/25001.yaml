@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "25001"
+          carrier_name: Mobile TeleSystems

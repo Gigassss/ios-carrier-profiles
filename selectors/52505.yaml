@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 52505_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 52505_GID1-616972616c6f31
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/apt_tw.yaml
       selectors:
         - raw: 52505_ID-8988605
+          carrier_name: GT
           conditions:
             - field: iccid
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/bics.yaml
       selectors:
         - raw: 52505_ID-893204
+          carrier_name: BICS
           conditions:
             - field: iccid
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/bne.yaml
       selectors:
         - raw: 52505_GID1-626e6573696d31
+          carrier_name: bne
           conditions:
             - field: gid1
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/docomo_gu.yaml
       selectors:
         - raw: 52505_ID-891377
+          carrier_name: DOCOMO PACIFIC
           conditions:
             - field: iccid
               match: prefix
@@ -53,6 +59,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 52505_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -61,6 +68,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 52505_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -69,6 +77,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 52505_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -77,6 +86,7 @@ profiles:
       path: profiles/simly.yaml
       selectors:
         - raw: 52505_GID1-73696D6C7931
+          carrier_name: Simly
           conditions:
             - field: gid1
               match: prefix
@@ -85,11 +95,13 @@ profiles:
       path: profiles/smartfren_id.yaml
       selectors:
         - raw: 52505_ID-896209
+          carrier_name: Smartfren
           conditions:
             - field: iccid
               match: prefix
               value: "896209"
         - raw: 52505_ID-896228
+          carrier_name: Smartfren
           conditions:
             - field: iccid
               match: prefix
@@ -98,6 +110,7 @@ profiles:
       path: profiles/starhub_giga_sg.yaml
       selectors:
         - raw: 52505_GID1-4442
+          carrier_name: giga
           conditions:
             - field: gid1
               match: prefix
@@ -107,10 +120,12 @@ profiles:
       generic: true
       selectors:
         - raw: "52505"
+          carrier_name: StarHub
     - id: apple_yes_my
       path: profiles/yes_my.yaml
       selectors:
         - raw: 52505_ID-8960152
+          carrier_name: "YES"
           conditions:
             - field: iccid
               match: prefix

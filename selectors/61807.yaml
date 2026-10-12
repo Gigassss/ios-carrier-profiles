@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "61807"
+          carrier_name: Orange LBR

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "27821"
+          carrier_name: go mobile

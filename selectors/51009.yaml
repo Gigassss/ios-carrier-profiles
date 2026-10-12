@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "51009"
+          carrier_name: Smartfren

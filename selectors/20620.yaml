@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "20620"
+          carrier_name: BASE

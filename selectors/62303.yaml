@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "62303"
+          carrier_name: Orange Central Africa

@@ -6,10 +6,12 @@ profiles:
       generic: true
       selectors:
         - raw: "29341"
+          carrier_name: mobitel
     - id: apple_telekomslovenije_xk
       path: profiles/telekomslovenije_xk.yaml
       selectors:
         - raw: 29341_GID1-90
+          carrier_name: IPKO
           conditions:
             - field: gid1
               match: prefix

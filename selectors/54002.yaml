@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "54002"
+          carrier_name: bMobile

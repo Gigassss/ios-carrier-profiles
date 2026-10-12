@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 24007_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/comviq_se.yaml
       selectors:
         - raw: 24007_GID1-4951
+          carrier_name: Comviq
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/gigsky_us.yaml
       selectors:
         - raw: 24007_GID1-6F
+          carrier_name: GigSky
           conditions:
             - field: gid1
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 24007_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 24007_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/o2_sky_uk.yaml
       selectors:
         - raw: 24007_ID-894442
+          carrier_name: Sky
           conditions:
             - field: iccid
               match: prefix
@@ -53,6 +59,7 @@ profiles:
       path: profiles/sky_ie.yaml
       selectors:
         - raw: 24007_GID1-0d
+          carrier_name: Sky IE
           conditions:
             - field: gid1
               match: prefix
@@ -61,6 +68,7 @@ profiles:
       path: profiles/tele2_sberbank_ru.yaml
       selectors:
         - raw: 24007_ID-8970150
+          carrier_name: Sberbank
           conditions:
             - field: iccid
               match: prefix
@@ -70,12 +78,15 @@ profiles:
       generic: true
       selectors:
         - raw: "24007"
+          carrier_name: Tele2
         - raw: 24007_GID1-4900
+          carrier_name: Tele2
           conditions:
             - field: gid1
               match: prefix
               value: "4900"
         - raw: 24007_ID-894620
+          carrier_name: Tele2
           conditions:
             - field: iccid
               match: prefix
@@ -84,6 +95,7 @@ profiles:
       path: profiles/webbing.yaml
       selectors:
         - raw: 24007_ID-8985235
+          carrier_name: Webbing
           conditions:
             - field: iccid
               match: prefix

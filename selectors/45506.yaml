@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "45506"
+          carrier_name: SmarTone

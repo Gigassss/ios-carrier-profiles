@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 52501_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,11 +14,13 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 52501_GID1-41
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
               value: "41"
         - raw: 52501_GID1-616972616c6f31
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
@@ -26,6 +29,7 @@ profiles:
       path: profiles/datapro.yaml
       selectors:
         - raw: 52501_GID1-45736B696D6F
+          carrier_name: Eskimo
           conditions:
             - field: gid1
               match: prefix
@@ -34,6 +38,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 52501_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +47,7 @@ profiles:
       path: profiles/lotusflare.yaml
       selectors:
         - raw: 52501_GID1-4745544E4F4D4144
+          carrier_name: Nomad
           conditions:
             - field: gid1
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 52501_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -59,10 +66,12 @@ profiles:
       generic: true
       selectors:
         - raw: "52501"
+          carrier_name: Singtel
     - id: apple_telefonica_esimflag
       path: profiles/telefonica_esimflag.yaml
       selectors:
         - raw: 52501_GID1-80_ID-8910300
+          carrier_name: eSimFLAG
           conditions:
             - field: gid1
               match: prefix

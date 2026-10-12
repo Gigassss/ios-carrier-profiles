@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "41603"
+          carrier_name: Umniah

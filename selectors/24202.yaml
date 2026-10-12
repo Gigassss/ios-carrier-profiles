@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "24202"
+          carrier_name: Telia N

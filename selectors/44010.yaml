@@ -6,7 +6,9 @@ profiles:
       generic: true
       selectors:
         - raw: "44010"
+          carrier_name: ドコモ
         - raw: 44010_GID1-01FFFF
+          carrier_name: ドコモ
           conditions:
             - field: gid1
               match: prefix

@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 42402_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -14,10 +15,12 @@ profiles:
       generic: true
       selectors:
         - raw: "42402"
+          carrier_name: e&
     - id: apple_knowroaming
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 42402_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -26,6 +29,7 @@ profiles:
       path: profiles/simly.yaml
       selectors:
         - raw: 42402_GID1-73696D6C7931
+          carrier_name: Simly
           conditions:
             - field: gid1
               match: prefix
@@ -34,6 +38,7 @@ profiles:
       path: profiles/webbing.yaml
       selectors:
         - raw: 42402_ID-8985235
+          carrier_name: Webbing
           conditions:
             - field: iccid
               match: prefix

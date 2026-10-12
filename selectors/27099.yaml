@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "27099"
+          carrier_name: Orange Luxembourg

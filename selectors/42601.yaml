@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "42601"
+          carrier_name: Batelco

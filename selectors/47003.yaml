@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "47003"
+          carrier_name: Banglalink

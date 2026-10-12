@@ -6,7 +6,9 @@ profiles:
       generic: true
       selectors:
         - raw: "21890"
+          carrier_name: BH Mobile
         - raw: 21890_ID-89387010
+          carrier_name: BH Mobile
           conditions:
             - field: iccid
               match: prefix

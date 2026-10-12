@@ -5,16 +5,19 @@ profiles:
       path: profiles/tmobile_at.yaml
       selectors:
         - raw: 23207_GID1-07
+          carrier_name: Magenta-T-
           conditions:
             - field: gid1
               match: prefix
               value: "07"
         - raw: 23207_GID1-30
+          carrier_name: Magenta-T-
           conditions:
             - field: gid1
               match: prefix
               value: "30"
         - raw: 23207_GID1-31
+          carrier_name: Magenta-T-
           conditions:
             - field: gid1
               match: prefix
@@ -40,6 +43,7 @@ profiles:
               match: prefix
               value: "75"
         - raw: 23207_GID1-FF
+          carrier_name: Magenta-T-
           conditions:
             - field: gid1
               match: prefix

@@ -5,6 +5,7 @@ profiles:
       path: profiles/dentwireless.yaml
       selectors:
         - raw: 310260_GID1-3597bfd533
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/dish_ting_us.yaml
       selectors:
         - raw: 310260_GID1-6430
+          carrier_name: Ting
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/familymobile_us.yaml
       selectors:
         - raw: 310260_GID1-4D4B
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/tmobile_boost_us.yaml
       selectors:
         - raw: 310260_GID1-6230
+          carrier_name: Boost Mobile
           conditions:
             - field: gid1
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/tmobile_cc_us.yaml
       selectors:
         - raw: 310260_GID1-2AC9
+          carrier_name: CC
           conditions:
             - field: gid1
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/tmobile_metropcs_us.yaml
       selectors:
         - raw: 310260_GID1-6D
+          carrier_name: Metro
           conditions:
             - field: gid1
               match: prefix
@@ -191,11 +197,13 @@ profiles:
       path: profiles/tmobile_tfw_simple_us.yaml
       selectors:
         - raw: 310260_GID1-534D
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
               value: 534D
         - raw: 310260_GID1-DE
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
@@ -204,6 +212,7 @@ profiles:
       path: profiles/tmobile_ting_us.yaml
       selectors:
         - raw: 310260_GID1-6135
+          carrier_name: Ting
           conditions:
             - field: gid1
               match: prefix
@@ -212,31 +221,37 @@ profiles:
       path: profiles/tmobile_ultramint_us.yaml
       selectors:
         - raw: 310260_GID1-354d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: 354D
         - raw: 310260_GID1-364d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: 364D
         - raw: 310260_GID1-4153
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "4153"
         - raw: 310260_GID1-4154
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "4154"
         - raw: 310260_GID1-6132
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "6132"
         - raw: 310260_GID1-756d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
@@ -245,106 +260,127 @@ profiles:
       path: profiles/tmobile_us.yaml
       selectors:
         - raw: 310260_GID1-54
+          carrier_name: T-Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "54"
         - raw: 310260_ID-89012600
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012600"
         - raw: 310260_ID-89012601
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012601"
         - raw: 310260_ID-89012602
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012602"
         - raw: 310260_ID-89012603
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012603"
         - raw: 310260_ID-89012604
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012604"
         - raw: 310260_ID-89012605
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "89012605"
         - raw: 310260_ID-890126060
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126060"
         - raw: 310260_ID-890126061
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126061"
         - raw: 310260_ID-890126062
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126062"
         - raw: 310260_ID-890126065
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126065"
         - raw: 310260_ID-890126070
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126070"
         - raw: 310260_ID-890126075
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126075"
         - raw: 310260_ID-890126080
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126080"
         - raw: 310260_ID-890126081
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126081"
         - raw: 310260_ID-890126087
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126087"
         - raw: 310260_ID-890126090
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126090"
         - raw: 310260_ID-890126091
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126091"
         - raw: 310260_ID-890126093
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126093"
         - raw: 310260_ID-890126098
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix
               value: "890126098"
         - raw: 310260_ID-890126099
+          carrier_name: T-Mobile
           conditions:
             - field: iccid
               match: prefix

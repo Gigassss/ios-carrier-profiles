@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "61205"
+          carrier_name: MTN CI

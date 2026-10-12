@@ -5,6 +5,7 @@ profiles:
       path: profiles/vodafone_ho_it.yaml
       selectors:
         - raw: 22210_GID1-20
+          carrier_name: ho.
           conditions:
             - field: gid1
               match: prefix
@@ -14,3 +15,4 @@ profiles:
       generic: true
       selectors:
         - raw: "22210"
+          carrier_name: Vodafone IT

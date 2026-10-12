@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "302640"
+          carrier_name: Bell

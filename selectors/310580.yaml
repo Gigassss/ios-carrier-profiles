@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "310580"
+          carrier_name: Inland Cellular

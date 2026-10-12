@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 26006_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/bne.yaml
       selectors:
         - raw: 26006_GID1-626e6573696d31
+          carrier_name: bne
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/dentwireless.yaml
       selectors:
         - raw: 26006_GID1-3597bfd533
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 26006_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 26006_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/optimus_pt.yaml
       selectors:
         - raw: 26006_ID-8935103
+          carrier_name: NOS
           conditions:
             - field: iccid
               match: prefix
@@ -54,10 +60,12 @@ profiles:
       generic: true
       selectors:
         - raw: "26006"
+          carrier_name: Play
     - id: apple_primemobile
       path: profiles/primemobile.yaml
       selectors:
         - raw: 26006_GID1-2636
+          carrier_name: Prime Mobile
           conditions:
             - field: gid1
               match: prefix
@@ -66,6 +74,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 26006_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -74,6 +83,7 @@ profiles:
       path: profiles/shinetown.yaml
       selectors:
         - raw: 26006_GID1-AAAA
+          carrier_name: AIRSIMe
           conditions:
             - field: gid1
               match: prefix
@@ -82,6 +92,7 @@ profiles:
       path: profiles/simly.yaml
       selectors:
         - raw: 26006_GID1-73696D6C7931
+          carrier_name: Simly
           conditions:
             - field: gid1
               match: prefix
@@ -90,6 +101,7 @@ profiles:
       path: profiles/webbing.yaml
       selectors:
         - raw: 26006_ID-8985235
+          carrier_name: Webbing
           conditions:
             - field: iccid
               match: prefix

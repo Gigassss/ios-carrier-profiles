@@ -5,6 +5,7 @@ profiles:
       path: profiles/digicel_fj.yaml
       selectors:
         - raw: 54202_ID-8967902
+          carrier_name: Digicel
           conditions:
             - field: iccid
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/digicel_nr.yaml
       selectors:
         - raw: 54202_ID-8967402
+          carrier_name: Digicel
           conditions:
             - field: iccid
               match: prefix

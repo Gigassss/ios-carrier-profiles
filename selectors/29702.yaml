@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "29702"
+          carrier_name: Telekom.me

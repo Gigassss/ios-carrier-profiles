@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "28604"
+          carrier_name: Turk Telekom

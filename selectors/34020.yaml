@@ -6,7 +6,9 @@ profiles:
       generic: true
       selectors:
         - raw: "34020"
+          carrier_name: Digicel
         - raw: 34020_ID-895962002
+          carrier_name: Wizzee
           conditions:
             - field: iccid
               match: prefix

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "20412"
+          carrier_name: Telfort NL

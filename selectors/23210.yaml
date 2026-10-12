@@ -5,6 +5,7 @@ profiles:
       path: profiles/esimgo.yaml
       selectors:
         - raw: 23210_GID1-0409
+          carrier_name: eSIM Go
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/holafly.yaml
       selectors:
         - raw: 23210_GID1-0507_GID2-0507_ID-8935333
+          carrier_name: Holafly
           conditions:
             - field: gid1
               match: prefix
@@ -24,6 +26,7 @@ profiles:
               match: prefix
               value: "8935333"
         - raw: 23210_GID1-0507_GID2-0507_ID-894310815
+          carrier_name: Holafly
           conditions:
             - field: gid1
               match: prefix
@@ -39,10 +42,12 @@ profiles:
       generic: true
       selectors:
         - raw: "23210"
+          carrier_name: Drei
     - id: apple_redteamobile
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 23210_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix

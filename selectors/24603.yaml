@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "24603"
+          carrier_name: Tele2 LT

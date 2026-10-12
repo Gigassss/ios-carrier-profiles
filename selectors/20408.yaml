@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 20408_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 20408_GID1-41
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 20408_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -30,10 +33,12 @@ profiles:
       generic: true
       selectors:
         - raw: "20408"
+          carrier_name: KPN NL
     - id: apple_redteamobile
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 20408_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -42,6 +47,7 @@ profiles:
       path: profiles/truphone_us.yaml
       selectors:
         - raw: 20408_GID1-547275554B3030656E
+          carrier_name: 1GLOBAL
           conditions:
             - field: gid1
               match: prefix

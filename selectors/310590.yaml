@@ -5,6 +5,7 @@ profiles:
       path: profiles/verizon_charter_lte_us.yaml
       selectors:
         - raw: 310590_GID2-A7
+          carrier_name: Spectrum
           conditions:
             - field: gid2
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/verizon_comcast_lte_us.yaml
       selectors:
         - raw: 310590_GID2-A3
+          carrier_name: Xfinity Mobile
           conditions:
             - field: gid2
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/verizon_core_visible_lte_us.yaml
       selectors:
         - raw: 310590_GID2-1C
+          carrier_name: Visible
           conditions:
             - field: gid2
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/verizon_cox_lte_us.yaml
       selectors:
         - raw: 310590_GID2-B100000000000000
+          carrier_name: Cox Mobile
           conditions:
             - field: gid2
               match: prefix
@@ -38,10 +42,12 @@ profiles:
       generic: true
       selectors:
         - raw: "310590"
+          carrier_name: Verizon
     - id: apple_verizon_response_lte_us
       path: profiles/verizon_response_lte_us.yaml
       selectors:
         - raw: 310590_GID2-1B
+          carrier_name: Verizon Response
           conditions:
             - field: gid2
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/verizon_tfw_lte_us.yaml
       selectors:
         - raw: 310590_GID2-A1
+          carrier_name: Verizon
           conditions:
             - field: gid2
               match: prefix

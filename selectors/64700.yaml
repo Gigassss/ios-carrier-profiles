@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "64700"
+          carrier_name: Orange Reunion

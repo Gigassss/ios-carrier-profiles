@@ -5,6 +5,7 @@ profiles:
       path: profiles/gigsky_us.yaml
       selectors:
         - raw: 310380_GID1-6F
+          carrier_name: GigSky
           conditions:
             - field: gid1
               match: prefix

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "25902"
+          carrier_name: MoldCell

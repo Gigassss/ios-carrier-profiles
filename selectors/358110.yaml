@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "358110"
+          carrier_name: FLOW

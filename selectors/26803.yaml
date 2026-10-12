@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "26803"
+          carrier_name: NOS

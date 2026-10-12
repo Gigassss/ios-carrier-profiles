@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "312380"
+          carrier_name: Copper Valley Telecom

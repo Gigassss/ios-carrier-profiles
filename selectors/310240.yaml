@@ -5,6 +5,7 @@ profiles:
       path: profiles/dentwireless.yaml
       selectors:
         - raw: 310240_GID1-3597bfd533
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
@@ -13,11 +14,13 @@ profiles:
       path: profiles/dish_mvno_us.yaml
       selectors:
         - raw: 310240_GID1-6432
+          carrier_name: Boost
           conditions:
             - field: gid1
               match: prefix
               value: "6432"
         - raw: 310240_GID1-6434
+          carrier_name: Boost
           conditions:
             - field: gid1
               match: prefix
@@ -26,6 +29,7 @@ profiles:
       path: profiles/dish_ting_us.yaml
       selectors:
         - raw: 310240_GID1-6430
+          carrier_name: Ting
           conditions:
             - field: gid1
               match: prefix
@@ -34,6 +38,7 @@ profiles:
       path: profiles/familymobile_us.yaml
       selectors:
         - raw: 310240_GID1-4D4B
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +47,7 @@ profiles:
       path: profiles/tmobile_boost_us.yaml
       selectors:
         - raw: 310240_GID1-6230
+          carrier_name: Boost Mobile
           conditions:
             - field: gid1
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/tmobile_cc_us.yaml
       selectors:
         - raw: 310240_GID1-2AC9
+          carrier_name: CC
           conditions:
             - field: gid1
               match: prefix
@@ -58,6 +65,7 @@ profiles:
       path: profiles/tmobile_charter_us.yaml
       selectors:
         - raw: 310240_GID1-BA02
+          carrier_name: Spectrum
           conditions:
             - field: gid1
               match: prefix
@@ -66,6 +74,7 @@ profiles:
       path: profiles/tmobile_comcast_us.yaml
       selectors:
         - raw: 310240_GID1-CC01
+          carrier_name: Comcast Business
           conditions:
             - field: gid1
               match: prefix
@@ -74,6 +83,7 @@ profiles:
       path: profiles/tmobile_metropcs_us.yaml
       selectors:
         - raw: 310240_GID1-6D
+          carrier_name: Metro
           conditions:
             - field: gid1
               match: prefix
@@ -205,11 +215,13 @@ profiles:
       path: profiles/tmobile_tfw_simple_us.yaml
       selectors:
         - raw: 310240_GID1-534D
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
               value: 534D
         - raw: 310240_GID1-DE
+          carrier_name: TFW
           conditions:
             - field: gid1
               match: prefix
@@ -218,6 +230,7 @@ profiles:
       path: profiles/tmobile_ting_us.yaml
       selectors:
         - raw: 310240_GID1-6135
+          carrier_name: Ting
           conditions:
             - field: gid1
               match: prefix
@@ -226,31 +239,37 @@ profiles:
       path: profiles/tmobile_ultramint_us.yaml
       selectors:
         - raw: 310240_GID1-354d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: 354D
         - raw: 310240_GID1-364d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: 364D
         - raw: 310240_GID1-4153
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "4153"
         - raw: 310240_GID1-4154
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "4154"
         - raw: 310240_GID1-6132
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
               value: "6132"
         - raw: 310240_GID1-756d
+          carrier_name: Ultra/Mint Mobile
           conditions:
             - field: gid1
               match: prefix
@@ -259,6 +278,7 @@ profiles:
       path: profiles/tmobile_us.yaml
       selectors:
         - raw: 310240_GID1-54
+          carrier_name: T-Mobile
           conditions:
             - field: gid1
               match: prefix

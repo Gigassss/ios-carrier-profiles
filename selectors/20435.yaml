@@ -5,6 +5,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 20435_GID1-41
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix

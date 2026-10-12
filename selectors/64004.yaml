@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "64004"
+          carrier_name: VodaCom

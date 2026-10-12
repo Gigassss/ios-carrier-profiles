@@ -5,6 +5,7 @@ profiles:
       path: profiles/tigo_co.yaml
       selectors:
         - raw: 732111_ID-895773
+          carrier_name: Tigo
           conditions:
             - field: iccid
               match: prefix

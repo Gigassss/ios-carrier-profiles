@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "313390"
+          carrier_name: Optimum

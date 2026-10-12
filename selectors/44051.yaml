@@ -5,6 +5,7 @@ profiles:
       path: profiles/kddi_biglobe_lte_only_jp.yaml
       selectors:
         - raw: 44051_GID1-24_GID2-00
+          carrier_name: BIGLOBE
           conditions:
             - field: gid1
               match: prefix
@@ -16,6 +17,7 @@ profiles:
       path: profiles/kddi_jcom_lte_only_jp.yaml
       selectors:
         - raw: 44051_GID1-22_GID2-00
+          carrier_name: J:COM
           conditions:
             - field: gid1
               match: prefix
@@ -28,7 +30,9 @@ profiles:
       generic: true
       selectors:
         - raw: "44051"
+          carrier_name: KDDI
         - raw: 44051_GID1-26_GID2-00
+          carrier_name: povo
           conditions:
             - field: gid1
               match: prefix
@@ -40,6 +44,7 @@ profiles:
       path: profiles/kddi_uq_lte_only_jp.yaml
       selectors:
         - raw: 44051_GID1-20_GID2-00
+          carrier_name: UQ mobile
           conditions:
             - field: gid1
               match: prefix

@@ -50,7 +50,12 @@ profiles:
           - field: gid1
             match: prefix
             value: "42"
+        carrier_name: RedPocket
 ```
+
+`carrier_name` 是 selector 命中后的运营商展示值，不是匹配条件。它由 Apple Bundle
+的 `CarrierName` 或已生效的 `OverrideOperatorName` 生成；同一个 Bundle 的不同 MVNO
+selector 可以返回不同的名称。
 
 支持的条件如下：
 

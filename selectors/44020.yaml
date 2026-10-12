@@ -6,7 +6,9 @@ profiles:
       generic: true
       selectors:
         - raw: "44020"
+          carrier_name: ソフトバンク
         - raw: 44020_GID1-48FFFF
+          carrier_name: LINEMO
           conditions:
             - field: gid1
               match: prefix
@@ -15,11 +17,13 @@ profiles:
       path: profiles/softbank_ymobile_jp.yaml
       selectors:
         - raw: 44020_GID1-01FFFF
+          carrier_name: ワイモバイル
           conditions:
             - field: gid1
               match: prefix
               value: 01FFFF
         - raw: 44020_GID1-16FFFF
+          carrier_name: ワイモバイル
           conditions:
             - field: gid1
               match: prefix

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "29403"
+          carrier_name: A1 MK

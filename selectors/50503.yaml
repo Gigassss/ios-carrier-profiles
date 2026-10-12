@@ -6,10 +6,12 @@ profiles:
       generic: true
       selectors:
         - raw: "50503"
+          carrier_name: voda AU
     - id: apple_vodafone_lebara_au
       path: profiles/vodafone_lebara_au.yaml
       selectors:
         - raw: 50503_GID1-01
+          carrier_name: Lebara
           conditions:
             - field: gid1
               match: prefix

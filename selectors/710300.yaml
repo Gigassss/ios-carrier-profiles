@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "710300"
+          carrier_name: Tigo

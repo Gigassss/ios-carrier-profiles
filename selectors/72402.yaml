@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "72402"
+          carrier_name: TIM

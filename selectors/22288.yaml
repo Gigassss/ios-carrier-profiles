@@ -6,10 +6,12 @@ profiles:
       generic: true
       selectors:
         - raw: "22288"
+          carrier_name: WINDTRE
     - id: apple_wind_very_it
       path: profiles/wind_very_it.yaml
       selectors:
         - raw: 22288_GID1-0000000099
+          carrier_name: Very
           conditions:
             - field: gid1
               match: prefix

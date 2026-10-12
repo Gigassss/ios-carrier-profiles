@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 732123_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 732123_GID1-616972616c6f31
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/cmcc_cmi.yaml
       selectors:
         - raw: 732123_ID-8985234
+          carrier_name: CMLink
           conditions:
             - field: iccid
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 732123_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -38,10 +42,12 @@ profiles:
       generic: true
       selectors:
         - raw: "732123"
+          carrier_name: movistar
     - id: apple_mysim
       path: profiles/mysim.yaml
       selectors:
         - raw: 732123_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/roamless.yaml
       selectors:
         - raw: 732123_GID1-4D2E3F1A6B7C8D9E
+          carrier_name: Roamless
           conditions:
             - field: gid1
               match: prefix

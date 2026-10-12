@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "24214"
+          carrier_name: Ice Norway

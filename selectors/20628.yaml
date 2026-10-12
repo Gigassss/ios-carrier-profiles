@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 20628_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 20628_ID-893135
+          carrier_name: Airalo
           conditions:
             - field: iccid
               match: prefix
@@ -22,10 +24,12 @@ profiles:
       generic: true
       selectors:
         - raw: "20628"
+          carrier_name: BICS
     - id: apple_cmcc_cmi
       path: profiles/cmcc_cmi.yaml
       selectors:
         - raw: 20628_ID-8985234
+          carrier_name: CMLink
           conditions:
             - field: iccid
               match: prefix
@@ -34,6 +38,7 @@ profiles:
       path: profiles/esimgo.yaml
       selectors:
         - raw: 20628_GID1-0409
+          carrier_name: eSIM Go
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +47,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 20628_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/roamless.yaml
       selectors:
         - raw: 20628_GID1-4D2E3F1A6B7C8D9E
+          carrier_name: Roamless
           conditions:
             - field: gid1
               match: prefix

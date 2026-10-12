@@ -5,6 +5,7 @@ profiles:
       path: profiles/panhandle_us.yaml
       selectors:
         - raw: 311530_GID1-5054
+          carrier_name: PTCI
           conditions:
             - field: gid1
               match: prefix

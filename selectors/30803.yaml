@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "30803"
+          carrier_name: SPM Telecom

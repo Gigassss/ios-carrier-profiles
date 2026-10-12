@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 71204_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 71204_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -22,10 +24,12 @@ profiles:
       generic: true
       selectors:
         - raw: "71204"
+          carrier_name: LIBERTY
     - id: apple_mysim
       path: profiles/mysim.yaml
       selectors:
         - raw: 71204_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -34,6 +38,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 71204_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix

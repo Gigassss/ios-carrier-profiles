@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "314200"
+          carrier_name: Xfinity Mobile

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "64903"
+          carrier_name: tnmobile

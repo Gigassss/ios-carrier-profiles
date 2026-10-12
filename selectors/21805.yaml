@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "21805"
+          carrier_name: m:tel

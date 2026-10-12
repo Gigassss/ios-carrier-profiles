@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "25050"
+          carrier_name: Sberbank

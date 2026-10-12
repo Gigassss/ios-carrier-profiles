@@ -5,6 +5,7 @@ profiles:
       path: profiles/dentwireless.yaml
       selectors:
         - raw: 45403_GID1-3597bfd533
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
@@ -14,15 +15,18 @@ profiles:
       generic: true
       selectors:
         - raw: "45403"
+          carrier_name: Hutchison HK
     - id: apple_hutchison_hkbn_hk
       path: profiles/hutchison_hkbn_hk.yaml
       selectors:
         - raw: 45403_GID1-0009
+          carrier_name: HKBN
           conditions:
             - field: gid1
               match: prefix
               value: "0009"
         - raw: 45403_ID-8985203026
+          carrier_name: HKBN
           conditions:
             - field: iccid
               match: prefix
@@ -31,6 +35,7 @@ profiles:
       path: profiles/multibyte.yaml
       selectors:
         - raw: 45403_GID1-0227_GID2-02280
+          carrier_name: MultiByte
           conditions:
             - field: gid1
               match: prefix
@@ -42,6 +47,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 45403_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -50,6 +56,7 @@ profiles:
       path: profiles/shinetown.yaml
       selectors:
         - raw: 45403_GID1-AAAA
+          carrier_name: AIRSIMe
           conditions:
             - field: gid1
               match: prefix
@@ -58,6 +65,7 @@ profiles:
       path: profiles/webbing.yaml
       selectors:
         - raw: 45403_ID-8985235
+          carrier_name: Webbing
           conditions:
             - field: iccid
               match: prefix

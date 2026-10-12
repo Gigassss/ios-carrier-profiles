@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 26001_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,16 +14,19 @@ profiles:
       path: profiles/dentwireless.yaml
       selectors:
         - raw: 26001_GID1-3597bfd533
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
               value: 3597BFD533
         - raw: 26001_GID1-3597bfd534
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
               value: 3597BFD534
         - raw: 26001_GID1-3597bfd535
+          carrier_name: DENT
           conditions:
             - field: gid1
               match: prefix
@@ -31,6 +35,7 @@ profiles:
       path: profiles/genesis.yaml
       selectors:
         - raw: 26001_GID1-596553494D313054FFFF
+          carrier_name: Yesim
           conditions:
             - field: gid1
               match: prefix
@@ -39,6 +44,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 26001_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -47,6 +53,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 26001_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -56,10 +63,12 @@ profiles:
       generic: true
       selectors:
         - raw: "26001"
+          carrier_name: Plus
     - id: apple_redteamobile
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 26001_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -68,6 +77,7 @@ profiles:
       path: profiles/simly.yaml
       selectors:
         - raw: 26001_GID1-73696D6C7931
+          carrier_name: Simly
           conditions:
             - field: gid1
               match: prefix

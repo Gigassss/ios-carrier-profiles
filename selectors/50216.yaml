@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "50216"
+          carrier_name: CelcomDigi

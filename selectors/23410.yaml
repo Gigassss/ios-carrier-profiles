@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 23410_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/airgsm.yaml
       selectors:
         - raw: 23410_GID1-616972616c6f31
+          carrier_name: Airalo
           conditions:
             - field: gid1
               match: prefix
@@ -21,6 +23,7 @@ profiles:
       path: profiles/cmcc_cmi.yaml
       selectors:
         - raw: 23410_ID-8985234
+          carrier_name: CMLink
           conditions:
             - field: iccid
               match: prefix
@@ -29,6 +32,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 23410_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -37,6 +41,7 @@ profiles:
       path: profiles/mysim.yaml
       selectors:
         - raw: 23410_GID1-434F423236303036
+          carrier_name: UPeSIM
           conditions:
             - field: gid1
               match: prefix
@@ -45,6 +50,7 @@ profiles:
       path: profiles/o2_giffgaff_uk.yaml
       selectors:
         - raw: 23410_GID1-508FFFFF
+          carrier_name: giffgaff
           conditions:
             - field: gid1
               match: prefix
@@ -53,21 +59,25 @@ profiles:
       path: profiles/o2_prepaid_uk.yaml
       selectors:
         - raw: 23410_GID1-61FFFF
+          carrier_name: O2
           conditions:
             - field: gid1
               match: prefix
               value: 61FFFF
         - raw: 23410_GID1-67FFFF
+          carrier_name: O2
           conditions:
             - field: gid1
               match: prefix
               value: 67FFFF
         - raw: 23410_GID1-85FFFF
+          carrier_name: O2
           conditions:
             - field: gid1
               match: prefix
               value: 85FFFF
         - raw: 23410_GID1-99FFFF
+          carrier_name: O2
           conditions:
             - field: gid1
               match: prefix
@@ -76,6 +86,7 @@ profiles:
       path: profiles/o2_tesco_uk.yaml
       selectors:
         - raw: 23410_GID1-0AFFFF
+          carrier_name: TESCO
           conditions:
             - field: gid1
               match: prefix
@@ -85,7 +96,9 @@ profiles:
       generic: true
       selectors:
         - raw: "23410"
+          carrier_name: O2
         - raw: 23410_GID1-520F
+          carrier_name: Sky
           conditions:
             - field: gid1
               match: prefix
@@ -94,6 +107,7 @@ profiles:
       path: profiles/redteamobile.yaml
       selectors:
         - raw: 23410_ID-89852245280
+          carrier_name: RedteaMobile
           conditions:
             - field: iccid
               match: prefix
@@ -102,6 +116,7 @@ profiles:
       path: profiles/telecom_nz.yaml
       selectors:
         - raw: 23410_ID-896405
+          carrier_name: Spark NZ
           conditions:
             - field: iccid
               match: prefix
@@ -110,6 +125,7 @@ profiles:
       path: profiles/truphone_us.yaml
       selectors:
         - raw: 23410_GID1-547275554B3030656E
+          carrier_name: 1GLOBAL
           conditions:
             - field: gid1
               match: prefix

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "311320"
+          carrier_name: VIYA

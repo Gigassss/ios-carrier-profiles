@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "65202"
+          carrier_name: Orange Botswana

@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "25702"
+          carrier_name: MTS.BY

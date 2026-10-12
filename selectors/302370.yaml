@@ -6,10 +6,12 @@ profiles:
       generic: true
       selectors:
         - raw: "302370"
+          carrier_name: Fido
     - id: apple_mts_ca
       path: profiles/mts_ca.yaml
       selectors:
         - raw: 302370_ID-891660
+          carrier_name: MTS
           conditions:
             - field: iccid
               match: prefix
@@ -18,6 +20,7 @@ profiles:
       path: profiles/vtr_cl.yaml
       selectors:
         - raw: 302370_ID-8956080
+          carrier_name: vtr
           conditions:
             - field: iccid
               match: prefix

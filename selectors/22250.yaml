@@ -6,7 +6,9 @@ profiles:
       generic: true
       selectors:
         - raw: "22250"
+          carrier_name: Iliad
         - raw: 22250_GID1-F003
+          carrier_name: Iliad
           conditions:
             - field: gid1
               match: prefix

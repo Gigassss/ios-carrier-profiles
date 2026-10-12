@@ -5,11 +5,13 @@ profiles:
       path: profiles/mtx_b2b_lu.yaml
       selectors:
         - raw: 90139_GID1-1F
+          carrier_name: Cellusina
           conditions:
             - field: gid1
               match: prefix
               value: 1F
         - raw: 90139_GID1-1FFFFFFFFFFFFFFFFFFF
+          carrier_name: Cellusina
           conditions:
             - field: gid1
               match: prefix
@@ -19,3 +21,4 @@ profiles:
       generic: true
       selectors:
         - raw: "90139"
+          carrier_name: MTXC

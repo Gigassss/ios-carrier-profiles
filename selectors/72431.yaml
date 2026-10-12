@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "72431"
+          carrier_name: Oi

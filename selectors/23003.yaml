@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "23003"
+          carrier_name: VF CZ

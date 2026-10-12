@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "405849"
+          carrier_name: Vi

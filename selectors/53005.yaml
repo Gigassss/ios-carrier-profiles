@@ -5,6 +5,7 @@ profiles:
       path: profiles/affinityclick.yaml
       selectors:
         - raw: 53005_GID1-616C6F73696D31
+          carrier_name: aloSIM
           conditions:
             - field: gid1
               match: prefix
@@ -13,6 +14,7 @@ profiles:
       path: profiles/knowroaming.yaml
       selectors:
         - raw: 53005_GID1-636f6e6e65637431
+          carrier_name: Connect
           conditions:
             - field: gid1
               match: prefix
@@ -22,10 +24,12 @@ profiles:
       generic: true
       selectors:
         - raw: "53005"
+          carrier_name: Spark NZ
     - id: apple_telecom_skinny_nz
       path: profiles/telecom_skinny_nz.yaml
       selectors:
         - raw: 53005_ID-89640520
+          carrier_name: Skinny
           conditions:
             - field: iccid
               match: prefix

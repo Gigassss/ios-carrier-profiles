@@ -6,3 +6,4 @@ profiles:
       generic: true
       selectors:
         - raw: "311450"
+          carrier_name: PTCI
