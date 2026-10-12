@@ -6,6 +6,23 @@ supported_plmns:
     - "302780"
 plmn_overrides:
     "302780":
+        apns:
+            - apn: pda2.stm.sk.ca
+              type_mask: 1081397
+              tech_type_mask: 1048580
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 4194481

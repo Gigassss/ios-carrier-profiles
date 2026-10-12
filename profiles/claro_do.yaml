@@ -6,6 +6,29 @@ supported_plmns:
     - "37002"
 plmn_overrides:
     "37002":
+        apns:
+            - apn: internet.ideasclaro.com.do
+              type_mask: 1081393
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+            - apn: vvm.ideasclaro.com.do
+              username: vvm
+              password: vvm
+              type_mask: 2
+            - apn: mms.ideasclaro.com.do
+              type_mask: 4
+            - support_switch_over: false
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
+            - apn: sos
+              type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              allow_no_dns: 1
         apple:
             carrier_entitlements:
                 supported_entitlements: 1041

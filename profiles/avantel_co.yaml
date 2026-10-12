@@ -5,3 +5,7 @@ bundle: Avantel_co.bundle
 supported_plmns:
     - "20404"
     - "732130"
+common:
+    apns:
+        - apn: lte.avantel.com.co
+          type_mask: 49

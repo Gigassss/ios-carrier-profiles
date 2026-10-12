@@ -7,6 +7,33 @@ supported_plmns:
     - "302221"
     - "302222"
 common:
+    apns:
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: true
+        - apn: sp.koodo.com
+          type_mask: 32823
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4
+          use_network_mtu: true
+          xlat464_enabled: true
+        - apn: services.koodo.com
+          type_mask: 1048576
+          tech_type_mask: 1048582
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
     apple:
         carrier_entitlements:
             supported_entitlements: 4203697

@@ -4,3 +4,10 @@ id: apple_seatel_kh
 bundle: Seatel_kh.bundle
 supported_plmns:
     - "45611"
+plmn_overrides:
+    "45611":
+        apns:
+            - apn: seatel
+              type_mask: 49
+            - apn: seatel
+              type_mask: 48

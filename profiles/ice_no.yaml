@@ -6,6 +6,24 @@ supported_plmns:
     - "20404"
     - "24214"
 common:
+    apns:
+        - apn: ice.net
+          type_mask: 49
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4
+        - apn: mms.ice.net
+          type_mask: 4
+          tech_type_mask: 4
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          support_switch_over: true
+          use_network_mtu: true
     e911:
         over_itech_supported: true
         wifi_calling_without_entitlement: true

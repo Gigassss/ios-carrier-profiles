@@ -6,6 +6,20 @@ supported_plmns:
     - "42001"
 plmn_overrides:
     "42001":
+        apns:
+            - apn: JAWALNET.COM.SA
+              type_mask: 32817
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+            - apn: IMS
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4
+              support_switch_over: true
+              allow_no_dns: 1
+            - apn: mms.net.sa
+              type_mask: 4
         apple:
             carrier_entitlements:
                 supported_entitlements: 9216

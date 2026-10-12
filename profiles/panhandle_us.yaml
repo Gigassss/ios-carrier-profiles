@@ -4,3 +4,10 @@ id: apple_panhandle_us
 bundle: Panhandle_US.bundle
 supported_plmns:
     - "311530"
+plmn_overrides:
+    "311530":
+        apns:
+            - apn: ptci.mymobiletxt.com
+              type_mask: 55
+            - apn: ptci.mymobiletxt.com
+              type_mask: 54

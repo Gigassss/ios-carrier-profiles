@@ -6,6 +6,19 @@ supported_plmns:
     - "22005"
 plmn_overrides:
     "22005":
+        apns:
+            - apn: vipmobile
+              username: vipmobile
+              password: vipmobile
+              type_mask: 32817
+            - apn: vipmobile.mms
+              username: vipmobile
+              password: vipmobile
+              type_mask: 4
+            - apn: vipmobile
+              username: vipmobile
+              password: vipmobile
+              type_mask: 48
         apple:
             carrier_entitlements:
                 supported_entitlements: 5121

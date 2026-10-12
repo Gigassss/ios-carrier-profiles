@@ -6,6 +6,31 @@ supported_plmns:
     - "20601"
     - "302270"
 common:
+    apns:
+        - apn: mms.mobi.eastlink.ca
+          type_mask: 4
+          tech_type_mask: 4
+        - apn: wisp.mobi.eastlink.ca
+          type_mask: 32819
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: true
+        - apn: services
+          type_mask: 1048576
+          tech_type_mask: 1048578
+          allowed_ip_stack: ipv4
+          default_ip_stack: ipv4
+          roaming_ip_stack: ipv4
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 8369

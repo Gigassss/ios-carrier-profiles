@@ -7,6 +7,15 @@ supported_plmns:
     - "72207"
     - "722070"
 common:
+    apns:
+        - apn: wap.gprs.unifon.com.ar
+          username: wap
+          password: wap
+          type_mask: 49
+          allowed_ip_stack: ipv4
+        - apn: ims
+          type_mask: 131072
+          allowed_ip_stack: ipv6
     e911:
         over_itech_supported: false
         wifi_calling_without_entitlement: true

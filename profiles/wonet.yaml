@@ -4,3 +4,8 @@ id: apple_wonet
 bundle: Wonet.bundle
 supported_plmns:
     - "90137"
+plmn_overrides:
+    "90137":
+        apns:
+            - apn: mobiledata
+              type_mask: 49

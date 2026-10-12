@@ -6,6 +6,16 @@ supported_plmns:
     - "21407"
     - "74807"
 common:
+    apns:
+        - apn: webapn.movistar.com.uy
+          type_mask: 1048625
+        - apn: apnmms.movistar.com.uy
+          type_mask: 4
+        - apn: ims
+          type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          support_switch_over: true
     ims:
         apn: ims
         ip_stack: ipv6

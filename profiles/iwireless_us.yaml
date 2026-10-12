@@ -5,3 +5,11 @@ bundle: iWireless_US.bundle
 supported_plmns:
     - "20404"
     - "310770"
+common:
+    apns:
+        - apn: i2.iwireless.com
+          type_mask: 51
+        - apn: wap1.iwireless.com
+          type_mask: 4
+        - apn: i2.iwireless.com
+          type_mask: 50

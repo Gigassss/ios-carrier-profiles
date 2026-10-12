@@ -6,6 +6,15 @@ supported_plmns:
     - "65501"
 plmn_overrides:
     "65501":
+        apns:
+            - apn: lte.vodacom.za
+              type_mask: 32823
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              support_switch_over: true
+            - apn: lte.vodacom.za
+              type_mask: 54
         apple:
             carrier_entitlements:
                 supported_entitlements: 9216

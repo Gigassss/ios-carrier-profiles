@@ -6,6 +6,17 @@ supported_plmns:
     - "50219"
 plmn_overrides:
     "50219":
+        apns:
+            - apn: yoodo
+              type_mask: 49
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
         e911:
             over_itech_supported: true
             wifi_calling_without_entitlement: true

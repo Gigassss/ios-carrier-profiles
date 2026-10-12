@@ -6,6 +6,12 @@ supported_plmns:
     - "40002"
 plmn_overrides:
     "40002":
+        apns:
+            - apn: internet.bakcell.com
+              type_mask: 49
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
         ims:
             register:
                 use_ipsec: true

@@ -4,3 +4,10 @@ id: apple_movistar_cr
 bundle: movistar_cr.bundle
 supported_plmns:
     - "71204"
+plmn_overrides:
+    "71204":
+        apns:
+            - apn: internet.movistar.cr
+              username: movistarcr
+              password: movistarcr
+              type_mask: 49

@@ -11,6 +11,42 @@ supported_plmns:
     - "310950"
     - "311180"
 common:
+    apns:
+        - apn: nxtgenphone
+          type_mask: 1081351
+          tech_type_mask: 1081351
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          always_on_pdu: true
+          use_network_mtu: true
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          always_on_pdu: true
+          support_switch_over: true
+          use_network_mtu: true
+          no_cellular_reconnect_cause_codes:
+            - cause_codes:
+                - 33
+              recovers_on_airplane_mode: true
+              type: 3GPP
+        - apn: hotspot
+          type_mask: 16
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          use_network_mtu: true
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          use_network_mtu: true
     apple:
         carrier_entitlements:
             supported_entitlements: 4206477
@@ -124,6 +160,9 @@ common:
         wifi_calling_allowed: true
 selector_overrides:
     "310170":
+        apns:
+            - apn: phone
+              type_mask: 1
         ims:
             apn: null
             ip_stack: null

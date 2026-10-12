@@ -21,6 +21,11 @@ supported_plmns:
     - "37635"
     - "376350"
 common:
+    apns:
+        - apn: internet
+          type_mask: 49
+        - apn: internet
+          type_mask: 48
     ims:
         register:
             use_ipsec: true

@@ -6,6 +6,23 @@ supported_plmns:
     - "20404"
     - "311480"
 common:
+    apns:
+        - apn: vzwinternet
+          type_mask: 51
+        - apn: vzwapp
+          type_mask: 32772
+        - apn: vzwinternet
+          type_mask: 51
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: vzwapp
+          type_mask: 49156
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: vzwadmin
+          type_mask: 512
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 25

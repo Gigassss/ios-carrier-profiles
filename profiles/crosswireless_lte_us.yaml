@@ -4,3 +4,14 @@ id: apple_crosswireless_lte_us
 bundle: CrossWireless_LTE_US.bundle
 supported_plmns:
     - "311480"
+plmn_overrides:
+    "311480":
+        apns:
+            - apn: vzwinternet
+              type_mask: 55
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+            - apn: vzwadmin
+              type_mask: 512
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6

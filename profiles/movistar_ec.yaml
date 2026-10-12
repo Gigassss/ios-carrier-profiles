@@ -7,6 +7,14 @@ supported_plmns:
     - "21407"
     - "74000"
 common:
+    apns:
+        - apn: internet.movistar.com.ec
+          username: movistar
+          password: movistar
+          type_mask: 49
+        - apn: ims
+          type_mask: 131072
+          support_switch_over: true
     ims:
         apn: ims
         media:

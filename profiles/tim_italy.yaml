@@ -6,6 +6,21 @@ supported_plmns:
     - "22201"
 plmn_overrides:
     "22201":
+        apns:
+            - apn: wap.tim.it
+              type_mask: 32817
+            - apn: unico.tim.it
+              type_mask: 4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              support_switch_over: true
+            - apn: xcap.tim.it
+              type_mask: 1048576
+            - apn: sos
+              type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 13313

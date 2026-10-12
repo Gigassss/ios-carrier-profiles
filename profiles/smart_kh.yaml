@@ -7,6 +7,15 @@ supported_plmns:
     - "45605"
     - "45606"
 common:
+    apns:
+        - apn: smart
+          type_mask: 1081395
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          support_switch_over: true
+        - apn: mms
+          type_mask: 4
     apple:
         carrier_entitlements:
             supported_entitlements: 1

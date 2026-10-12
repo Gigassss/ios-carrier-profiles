@@ -6,6 +6,18 @@ supported_plmns:
     - "45407"
 plmn_overrides:
     "45407":
+        apns:
+            - apn: 3gnet
+              type_mask: 1048625
+              tech_type_mask: 1048576
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+              support_switch_over: true
+              wait_for_bring_up_complete: true
+              use_network_mtu: true
         e911:
             wifi_calling_without_entitlement: true
         ims:

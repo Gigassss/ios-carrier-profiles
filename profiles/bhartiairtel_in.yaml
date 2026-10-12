@@ -27,6 +27,19 @@ supported_plmns:
     - "40555"
     - "40556"
 common:
+    apns:
+        - apn: airtelgprs.com
+          type_mask: 32817
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4
+          support_switch_over: true
+          support_5g_sa_handover: true
+          dont_suspend: true
     apple:
         carrier_entitlements:
             supported_entitlements: 9233

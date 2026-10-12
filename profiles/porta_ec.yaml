@@ -6,6 +6,21 @@ supported_plmns:
     - "74001"
 plmn_overrides:
     "74001":
+        apns:
+            - apn: internet.claro.com.ec
+              type_mask: 1081393
+            - apn: vvm.porta.com.ec
+              type_mask: 2
+            - apn: mms.claro.com.ec
+              username: portamms
+              password: portamms2003
+              type_mask: 4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 1041

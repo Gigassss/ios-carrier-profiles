@@ -7,6 +7,33 @@ supported_plmns:
     - "302630"
     - "302640"
 common:
+    apns:
+        - apn: pda2.bell.ca
+          type_mask: 1081399
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv4
+          use_network_mtu: true
+          xlat464_enabled: true
+        - apn: apps.bell.ca
+          tech_type_mask: 1048582
+          allowed_ip_stack: ipv4
+          default_ip_stack: ipv4
+          roaming_ip_stack: ipv4
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: true
+          support_5g_sa_handover: true
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 4205777

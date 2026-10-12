@@ -4,3 +4,10 @@ id: apple_mobilkom_mk
 bundle: mobilkom_mk.bundle
 supported_plmns:
     - "29403"
+plmn_overrides:
+    "29403":
+        apns:
+            - apn: vipoperator
+              type_mask: 49
+            - apn: vipoperator.mms
+              type_mask: 4

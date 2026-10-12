@@ -5,3 +5,13 @@ bundle: ACS_US.bundle
 supported_plmns:
     - "310050"
     - "311370"
+common:
+    apns:
+        - apn: web.acs
+          type_mask: 49
+        - apn: mms.acs
+          type_mask: 4
+        - apn: vm.acs
+          type_mask: 2
+        - apn: web.acs
+          type_mask: 48

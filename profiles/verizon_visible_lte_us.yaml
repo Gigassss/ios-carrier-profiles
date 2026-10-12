@@ -6,6 +6,68 @@ supported_plmns:
     - "20404"
     - "311480"
 common:
+    apns:
+        - apn: vsblinternet
+          type_mask: 4194323
+          domestic_roaming_ip_stack: ipv4
+        - apn: vsblapp
+          type_mask: 49156
+          tech_type_mask: 16390
+        - apn: vsblims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: false
+        - apn: vsblinternet
+          type_mask: 4194323
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4
+        - apn: vsblapp
+          type_mask: 49156
+          tech_type_mask: 16390
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: vsblims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: true
+          no_cellular_reconnect_cause_codes:
+            - cause_codes:
+                - 8
+              num_tries_allowed: 2
+              type: 3GPP
+            - cause_codes:
+                - 27
+              num_tries_allowed: 2
+              type: 3GPP
+            - cause_codes:
+                - 29
+              num_tries_allowed: 2
+              type: 3GPP
+            - cause_codes:
+                - 32
+              num_tries_allowed: 2
+              type: 3GPP
+            - cause_codes:
+                - 33
+              num_tries_allowed: 2
+              type: 3GPP
+        - apn: vsbladmin
+          type_mask: 512
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: vzwemergency
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 1209

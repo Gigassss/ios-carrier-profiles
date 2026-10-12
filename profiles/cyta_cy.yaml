@@ -6,6 +6,10 @@ supported_plmns:
     - "28001"
 plmn_overrides:
     "28001":
+        apns:
+            - apn: cytamobile
+              type_mask: 32821
+              allowed_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 13313

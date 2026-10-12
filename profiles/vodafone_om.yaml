@@ -6,6 +6,9 @@ supported_plmns:
     - "42206"
 plmn_overrides:
     "42206":
+        apns:
+            - apn: internet.vodafone.om
+              type_mask: 49
         ims:
             register:
                 use_ipsec: true

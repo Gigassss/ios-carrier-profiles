@@ -6,6 +6,23 @@ supported_plmns:
     - "42001"
     - "42604"
 common:
+    apns:
+        - apn: stc.bh
+          type_mask: 32817
+        - apn: stcwap.bh
+          type_mask: 4
+        - apn: IMS
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv4
+          default_ip_stack: ipv4
+          support_switch_over: true
+          allow_no_dns: 1
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv4
+          default_ip_stack: ipv4
     apple:
         carrier_entitlements:
             supported_entitlements: 13313

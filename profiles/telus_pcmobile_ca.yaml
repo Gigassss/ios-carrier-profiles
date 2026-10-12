@@ -6,6 +6,13 @@ supported_plmns:
     - "302220"
 plmn_overrides:
     "302220":
+        apns:
+            - apn: sp.mb.com
+              type_mask: 32775
+            - apn: isp.mb.com
+              type_mask: 48
+            - apn: sp.mb.com
+              type_mask: 32774
         apple:
             carrier_entitlements:
                 supported_entitlements: 33

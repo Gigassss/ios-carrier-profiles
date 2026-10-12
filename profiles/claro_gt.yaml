@@ -6,6 +6,19 @@ supported_plmns:
     - "70401"
 plmn_overrides:
     "70401":
+        apns:
+            - apn: internet.ideasclaro
+              type_mask: 49
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
+              use_network_mtu: true
         e911:
             over_itech_supported: false
             wifi_calling_without_entitlement: true

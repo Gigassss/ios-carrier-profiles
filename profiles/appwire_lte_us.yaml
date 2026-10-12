@@ -6,6 +6,31 @@ supported_plmns:
     - "312130"
 plmn_overrides:
     "312130":
+        apns:
+            - apn: 4g.myawi.com
+              type_mask: 33335
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131078
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              support_switch_over: true
+            - apn: hos.myawi.com
+              type_mask: 1048576
+              tech_type_mask: 1048576
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+              roaming_ip_stack: ipv4
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 1209

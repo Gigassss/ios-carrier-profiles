@@ -19,6 +19,45 @@ supported_plmns:
     - "311660"
     - "311882"
 common:
+    apns:
+        - apn: fast.t-mobile.com
+          type_mask: 1081351
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4
+          domestic_roaming_ip_stack: ipv4
+          xlat464_enabled: true
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4v6
+          always_on_pdu: true
+          support_switch_over: true
+          support_5g_sa_handover: true
+        - apn: tmus
+          tech_type_mask: 1048582
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4
+          domestic_roaming_ip_stack: ipv4
+        - apn: pcweb.tmobile.com
+          type_mask: 16
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4
+          domestic_roaming_ip_stack: ipv4
+          xlat464_enabled: true
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4v6
+          always_on_pdu: true
     apple:
         carrier_entitlements:
             supported_entitlements: 4783513
@@ -107,10 +146,78 @@ common:
             enable_volte_by_default: true
 selector_overrides:
     "311660":
+        apns:
+            - apn: iot.t-mobile.com
+              type_mask: 32785
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+              domestic_roaming_ip_stack: ipv4
+              xlat464_enabled: true
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              domestic_roaming_ip_stack: ipv4v6
+              always_on_pdu: true
+              support_switch_over: true
+              support_5g_sa_handover: true
+            - apn: service
+              type_mask: 1048582
+              tech_type_mask: 1048582
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+              domestic_roaming_ip_stack: ipv4
+              xlat464_enabled: true
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              domestic_roaming_ip_stack: ipv4v6
+              always_on_pdu: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 409
     "311882":
+        apns:
+            - apn: iot.t-mobile.com
+              type_mask: 32785
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+              domestic_roaming_ip_stack: ipv4
+              xlat464_enabled: true
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              domestic_roaming_ip_stack: ipv4v6
+              always_on_pdu: true
+              support_switch_over: true
+              support_5g_sa_handover: true
+            - apn: service
+              type_mask: 1048582
+              tech_type_mask: 1048582
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
+              domestic_roaming_ip_stack: ipv4
+              xlat464_enabled: true
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              domestic_roaming_ip_stack: ipv4v6
+              always_on_pdu: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 409

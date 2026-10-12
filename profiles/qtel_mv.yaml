@@ -6,6 +6,15 @@ supported_plmns:
     - "47202"
 plmn_overrides:
     "47202":
+        apns:
+            - apn: ooredoodata
+              type_mask: 49
+            - apn: MMS
+              type_mask: 4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              support_switch_over: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 1025

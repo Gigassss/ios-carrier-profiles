@@ -4,3 +4,10 @@ id: apple_unitel_mn
 bundle: Unitel_mn.bundle
 supported_plmns:
     - "42888"
+plmn_overrides:
+    "42888":
+        apns:
+            - apn: net
+              type_mask: 49
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6

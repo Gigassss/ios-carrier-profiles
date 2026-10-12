@@ -4,3 +4,11 @@ id: apple_telefonica_tuenti_ar
 bundle: Telefonica_Tuenti_ar.bundle
 supported_plmns:
     - "722010"
+plmn_overrides:
+    "722010":
+        apns:
+            - apn: internet.tuenti
+              username: internet
+              password: internet
+              type_mask: 49
+              allowed_ip_stack: ipv4v6

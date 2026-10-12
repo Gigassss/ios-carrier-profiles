@@ -6,6 +6,21 @@ supported_plmns:
     - "28603"
     - "28604"
 common:
+    apns:
+        - apn: internet
+          type_mask: 32817
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+        - apn: MMS
+          type_mask: 4
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          support_switch_over: true
+          use_network_mtu: true
     apple:
         carrier_entitlements:
             supported_entitlements: 1233

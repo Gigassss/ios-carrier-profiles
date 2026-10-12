@@ -6,6 +6,13 @@ supported_plmns:
     - "310240"
     - "310260"
 common:
+    apns:
+        - apn: wireless.dish.com
+          type_mask: 32773
+        - apn: service
+          type_mask: 2
+        - apn: tethering.dish.com
+          type_mask: 16
     apple:
         carrier_entitlements:
             supported_entitlements: 409

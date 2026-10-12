@@ -6,6 +6,29 @@ supported_plmns:
     - "310140"
 plmn_overrides:
     "310140":
+        apns:
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
+            - apn: iphone.gta.net
+              type_mask: 32769
+            - apn: gprs.gta.net
+              type_mask: 48
+            - apn: vvm.gta.net
+              type_mask: 2
+              tech_type_mask: 2
+            - apn: service
+              type_mask: 1048576
+              tech_type_mask: 1048576
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              support_switch_over: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 176

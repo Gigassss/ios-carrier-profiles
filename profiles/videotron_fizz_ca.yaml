@@ -6,6 +6,25 @@ supported_plmns:
     - "302500"
 plmn_overrides:
     "302500":
+        apns:
+            - apn: mobile.bm
+              type_mask: 55
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv6
+              default_ip_stack: ipv6
+              support_switch_over: true
+            - apn: xcap
+              type_mask: 1048576
+              tech_type_mask: 1048582
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv6
         e911:
             wifi_calling_without_entitlement: false
         ims:

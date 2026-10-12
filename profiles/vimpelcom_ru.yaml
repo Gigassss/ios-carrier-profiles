@@ -6,6 +6,15 @@ supported_plmns:
     - "25099"
 plmn_overrides:
     "25099":
+        apns:
+            - apn: internet.beeline.ru
+              username: beeline
+              password: beeline
+              type_mask: 49
+            - apn: mms.beeline.ru
+              username: beeline
+              password: beeline
+              type_mask: 4
         ims:
             epdg:
                 address: epdg.epc.mnc099.mcc250.pub.3gppnetwork.org

@@ -4,3 +4,14 @@ id: apple_megafon_ru
 bundle: MegaFon_ru.bundle
 supported_plmns:
     - "25002"
+plmn_overrides:
+    "25002":
+        apns:
+            - apn: internet
+              type_mask: 51
+            - apn: mms
+              username: mms
+              password: mms
+              type_mask: 4
+            - apn: internet
+              type_mask: 50

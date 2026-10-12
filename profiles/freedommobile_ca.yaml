@@ -6,6 +6,38 @@ supported_plmns:
     - "302490"
 plmn_overrides:
     "302490":
+        apns:
+            - apn: internet.freedommobile.ca
+              type_mask: 32819
+              tech_type_mask: 2
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+              roaming_ip_stack: ipv4
+            - apn: mms.freedommobile.ca
+              type_mask: 4
+              tech_type_mask: 4
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+              roaming_ip_stack: ipv4
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv6
+              default_ip_stack: ipv6
+              roaming_ip_stack: ipv6
+              support_switch_over: true
+            - apn: xcap.freedommobile.ca
+              type_mask: 1048576
+              tech_type_mask: 1048576
+              allowed_ip_stack: ipv4
+              default_ip_stack: ipv4
+              roaming_ip_stack: ipv4
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 4203665

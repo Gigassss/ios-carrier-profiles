@@ -6,6 +6,41 @@ supported_plmns:
     - "20404"
     - "45507"
 common:
+    apns:
+        - apn: CTNET
+          type_mask: 1049137
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+        - apn: CTWAP
+          type_mask: 4
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+        - apn: CTNET
+          type_mask: 1049136
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          support_switch_over: true
+          wait_for_bring_up_complete: true
+        - apn: CTNET
+          type_mask: 565
+        - apn: CTNET
+          type_mask: 564
+        - apn: sos
+          type_mask: 262144
+          tech_type_mask: 262144
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv6
+          allow_no_dns: 1
     e911:
         emergency_urns:
             "110": urn:service:sos.police

@@ -5,3 +5,18 @@ bundle: Sprint_Boost_ISIM_LTE_US.bundle
 supported_plmns:
     - "310120"
     - "312530"
+common:
+    apns:
+        - apn: cinet.spcs
+          type_mask: 36919
+          allowed_ip_stack: ipv4
+        - apn: n.boost.ispsn
+          type_mask: 7
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+        - apn: otasn
+          type_mask: 37376
+          allowed_ip_stack: ipv4
+        - apn: boost.pamsn
+          type_mask: 48
+          allowed_ip_stack: ipv4

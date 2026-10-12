@@ -27,6 +27,27 @@ supported_plmns:
     - "405873"
     - "405874"
 common:
+    apns:
+        - apn: jionet
+          type_mask: 1081393
+          tech_type_mask: 1048576
+          allowed_ip_stack: ipv4v6
+          default_ip_stack: ipv4v6
+          xlat464_enabled: true
+        - apn: ims
+          type_mask: 131072
+          tech_type_mask: 131072
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv4v6
+          support_switch_over: true
+          support_5g_sa_handover: true
+          dont_suspend: true
+        - apn: sos
+          type_mask: 262144
+          allowed_ip_stack: ipv6
+          default_ip_stack: ipv6
+          roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 11265

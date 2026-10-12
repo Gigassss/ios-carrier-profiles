@@ -6,6 +6,11 @@ supported_plmns:
     - "41603"
 plmn_overrides:
     "41603":
+        apns:
+            - apn: net
+              type_mask: 49
+            - apn: mms
+              type_mask: 4
         ims:
             register:
                 use_ipsec: true

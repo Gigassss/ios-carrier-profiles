@@ -6,6 +6,11 @@ supported_plmns:
     - "310240"
     - "310260"
 common:
+    apns:
+        - apn: boost.data
+          type_mask: 32773
+        - apn: service
+          type_mask: 2
     apple:
         carrier_entitlements:
             supported_entitlements: 409

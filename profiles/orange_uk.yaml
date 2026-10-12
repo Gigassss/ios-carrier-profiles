@@ -6,6 +6,28 @@ supported_plmns:
     - "23433"
 plmn_overrides:
     "23433":
+        apns:
+            - apn: everywhere
+              type_mask: 32817
+              allowed_ip_stack: ipv4v6
+              default_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4v6
+              xlat464_enabled: true
+            - apn: eezone
+              type_mask: 1048582
+              tech_type_mask: 1048582
+            - apn: ims
+              type_mask: 131072
+              tech_type_mask: 131072
+              allowed_ip_stack: ipv6
+              default_ip_stack: ipv6
+              support_switch_over: true
+              support_5g_sa_handover: true
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv6
+              default_ip_stack: ipv6
         apple:
             carrier_entitlements:
                 supported_entitlements: 4202497

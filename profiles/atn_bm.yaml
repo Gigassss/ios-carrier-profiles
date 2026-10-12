@@ -6,6 +6,13 @@ supported_plmns:
     - "204043"
     - "350000"
 common:
+    apns:
+        - apn: web.c1.bm
+          type_mask: 1
+        - apn: web.c1.bm
+          type_mask: 49
+        - apn: hos
+          type_mask: 1048576
     ims:
         media:
             rtcp_interval_seconds: 5
