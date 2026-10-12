@@ -14,11 +14,13 @@ profiles:
       path: profiles/att_mvno_us.yaml
       selectors:
         - raw: 311180_GID1-4102
+          carrier_name: ATT MVNO US
           conditions:
             - field: gid1
               match: prefix
               value: "4102"
         - raw: 311180_GID1-44FF
+          carrier_name: ATT MVNO US
           conditions:
             - field: gid1
               match: prefix

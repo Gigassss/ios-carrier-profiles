@@ -32,6 +32,7 @@ profiles:
       path: profiles/movistar_ec.yaml
       selectors:
         - raw: 21407_ID-8959300
+          carrier_name: movistar ec
           conditions:
             - field: iccid
               match: prefix

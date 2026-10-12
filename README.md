@@ -53,9 +53,10 @@ profiles:
         carrier_name: RedPocket
 ```
 
-`carrier_name` 是 selector 命中后的运营商展示值，不是匹配条件。它由 Apple Bundle
-的 `CarrierName` 或已生效的 `OverrideOperatorName` 生成；同一个 Bundle 的不同 MVNO
-selector 可以返回不同的名称。
+`carrier_name` 是 selector 命中后的展示值，不是匹配条件。它优先取已生效的
+`OverrideOperatorName`，其次取 `CarrierName`；都没有可用值时回退到 `Info.plist.CFBundleName`
+并将下划线替换为空格。CFBundleName 是 Bundle 标签，不保证等于零售运营商品牌。一个
+Bundle 的不同 MVNO selector 可以返回不同的名称。
 
 支持的条件如下：
 

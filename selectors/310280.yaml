@@ -14,6 +14,7 @@ profiles:
       path: profiles/att_dish_mvno_us.yaml
       selectors:
         - raw: 310280_GID1-3432
+          carrier_name: ATT Dish MVNO US
           conditions:
             - field: gid1
               match: prefix
@@ -22,16 +23,19 @@ profiles:
       path: profiles/att_mvno_us.yaml
       selectors:
         - raw: 310280_GID1-20FF
+          carrier_name: ATT MVNO US
           conditions:
             - field: gid1
               match: prefix
               value: 20FF
         - raw: 310280_GID1-4102
+          carrier_name: ATT MVNO US
           conditions:
             - field: gid1
               match: prefix
               value: "4102"
         - raw: 310280_GID1-44FF
+          carrier_name: ATT MVNO US
           conditions:
             - field: gid1
               match: prefix
