@@ -21,7 +21,7 @@ common:
         - apn: xcap
           type_mask: 1081344
           tech_type_mask: 1081344
-          allowed_ip_stack: ipv4
+          allowed_ip_stack: ipv4v6
     ims:
         apn: ims
         domain: ims.mnc087.mcc234.3gppnetwork.org
