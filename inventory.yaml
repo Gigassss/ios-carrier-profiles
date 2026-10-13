@@ -3,7 +3,7 @@ summary:
     bundles_discovered: 684
     carrier_plists: 683
     profiles_generated: 676
-    variants_generated: 1332
+    variants_generated: 1333
     bundles_without_supported_sims: 1
     parse_errors: 7
     rejected_profiles: 0
@@ -2750,9 +2750,10 @@ bundles:
       carrier_plist: true
       supported_sims:
         - "23487"
+        - 20404_ID-89441600
       profiles:
         - apple_lebara_uk
-      variants_generated: 1
+      variants_generated: 2
       status: ready
     - bundle: Liberty_pr.bundle
       carrier_plist: true

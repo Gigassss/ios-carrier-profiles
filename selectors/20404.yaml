@@ -78,6 +78,16 @@ profiles:
             - field: iccid
               match: prefix
               value: "894707"
+    - id: apple_lebara_uk
+      path: profiles/lebara_uk.yaml
+      selectors:
+        - raw: 20404_ID-89441600
+          carrier_name: Lebara UK
+          iso: GB
+          conditions:
+            - field: iccid
+              match: prefix
+              value: "89441600"
     - id: apple_mirs_il
       path: profiles/mirs_il.yaml
       selectors:

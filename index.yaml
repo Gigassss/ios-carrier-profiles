@@ -1657,6 +1657,7 @@ bundles:
       bundle: Lebara_uk.bundle
       path: profiles/lebara_uk.yaml
       supported_plmns:
+        - "20404"
         - "23487"
     - id: apple_lgu_kr
       bundle: LGU_kr.bundle
