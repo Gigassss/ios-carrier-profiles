@@ -84,6 +84,7 @@ profiles:
         - raw: 20404_ID-89441600
           carrier_name: Lebara UK
           iso: GB
+          vowifi_imsi: "23487${iccid[9:19]}"
           conditions:
             - field: iccid
               match: prefix
