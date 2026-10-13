@@ -68,16 +68,6 @@ profiles:
             - field: gid1
               match: prefix
               value: 4B
-    - id: apple_telus_pcmobile_ca
-      path: profiles/telus_pcmobile_ca.yaml
-      selectors:
-        - raw: 302220_GID1-50
-          carrier_name: PC Mobile
-          iso: CA
-          conditions:
-            - field: gid1
-              match: prefix
-              value: "50"
     - id: apple_telus_publicmobile_ca
       path: profiles/telus_publicmobile_ca.yaml
       selectors:

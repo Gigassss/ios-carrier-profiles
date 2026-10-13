@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: spectrum
               type_mask: 98353
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               suppress_pdn_tear_down: true
             - apn: ""

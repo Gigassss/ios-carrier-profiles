@@ -65,6 +65,7 @@ plmn_overrides:
                     replay_window_size: 12
                 local_identifier: 0$imsi@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org
             register:
+                expires: 3600
                 include_cellular_network_info: true
             signaling:
                 preconditions: unsupported

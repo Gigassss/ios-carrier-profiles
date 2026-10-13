@@ -18,6 +18,7 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
+              support_switch_over: true
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576

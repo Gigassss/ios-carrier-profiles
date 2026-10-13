@@ -8,9 +8,8 @@ plmn_overrides:
     "26203":
         apns:
             - apn: internet
-              type_mask: 1081399
+              type_mask: 1081395
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072

@@ -9,6 +9,5 @@ common:
     apns:
         - apn: net
           type_mask: 1
-          default_ip_stack: ipv4
         - apn: net
           type_mask: 48

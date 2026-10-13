@@ -19,9 +19,7 @@ selector_overrides:
               password: mms
               type_mask: 4
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: internet.proximus.be
               type_mask: 49
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               roaming_ip_stack: ipv4

@@ -23,6 +23,11 @@ plmn_overrides:
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576
+            - apn: sos
+              type_mask: 262144
+              tech_type_mask: 262144
+              allowed_ip_stack: ipv4v6
+              support_switch_over: true
         apple:
             carrier_entitlements:
                 supported_entitlements: 13440
@@ -82,7 +87,6 @@ plmn_overrides:
                 csfb_on:
                     - method: INVITE
                       statuses:
-                        - "380"
                         - 5XX
                 require_preconditions_when_mandatory: false
                 contact:

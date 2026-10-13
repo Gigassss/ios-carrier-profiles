@@ -12,7 +12,6 @@ plmn_overrides:
             - apn: ims
               type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               use_network_mtu: true
               allow_no_dns: 1
         e911:

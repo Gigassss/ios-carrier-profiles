@@ -20,6 +20,7 @@ plmn_overrides:
             ip_stack: ipv4
             register:
                 use_ipsec: true
+                expires: 7200
             signaling:
                 preconditions: unsupported
                 support_p_early_media: true

@@ -12,19 +12,16 @@ plmn_overrides:
               password: telefonica
               type_mask: 32819
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
               support_5g_sa_handover: true
               use_network_mtu: true
             - apn: xcap
               type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 97281

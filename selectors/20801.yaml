@@ -141,6 +141,16 @@ profiles:
             - field: iccid
               match: prefix
               value: "8985235"
+    - id: apple_wonet
+      path: profiles/wonet.yaml
+      selectors:
+        - raw: 20801_GID1-cc11
+          carrier_name: USIMS
+          iso: FR
+          conditions:
+            - field: gid1
+              match: prefix
+              value: CC11
     - id: apple_zeop_re
       path: profiles/zeop_re.yaml
       selectors:

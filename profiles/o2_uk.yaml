@@ -12,12 +12,11 @@ plmn_overrides:
               password: password
               type_mask: 1081399
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
+              xlat464_enabled: true
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
               support_5g_sa_handover: true
         apple:
@@ -102,11 +101,9 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
             - apn: mobile.o2.co.uk
               username: o2
               password: '*'
               type_mask: 1081399
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4

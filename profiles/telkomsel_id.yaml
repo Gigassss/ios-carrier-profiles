@@ -24,3 +24,5 @@ plmn_overrides:
         ims:
             ussi:
                 enabled: true
+            volte:
+                enable_volte_by_default: true

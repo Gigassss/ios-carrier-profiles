@@ -11,7 +11,6 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
           support_switch_over: true
         - apn: movistar.pe
           username: movistar@datos
@@ -64,6 +63,7 @@ common:
                   eap_method: EAP-AKA
         ip_stack: ipv4
         register:
+            expires: 3600
             include_cellular_network_info: true
             use_ipsec: true
         signaling:

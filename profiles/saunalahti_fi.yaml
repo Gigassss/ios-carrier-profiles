@@ -10,12 +10,9 @@ plmn_overrides:
             - apn: internet.saunalahti
               type_mask: 49
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: mms.saunalahti.fi
               type_mask: 4
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: internet.saunalahti
               type_mask: 48
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6

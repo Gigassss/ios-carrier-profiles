@@ -12,20 +12,17 @@ common:
           password: pcl
           type_mask: 32817
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
         - apn: mms.pelephone.net.il
           username: pcl@3g
           password: pcl
           type_mask: 4
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv6
           support_switch_over: true
     apple:
         carrier_entitlements:

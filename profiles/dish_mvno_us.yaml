@@ -94,7 +94,6 @@ selector_overrides:
             - apn: wireless.dish.com
               type_mask: 32773
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -102,7 +101,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               domestic_roaming_ip_stack: ipv4v6
               support_switch_over: true
@@ -110,14 +108,12 @@ selector_overrides:
               type_mask: 1048578
               tech_type_mask: 1048582
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
             - apn: tethering.dish.com
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -125,7 +121,6 @@ selector_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
         ims:
@@ -136,7 +131,6 @@ selector_overrides:
             - apn: wireless.dish.com
               type_mask: 32773
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -144,7 +138,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               domestic_roaming_ip_stack: ipv4v6
               support_switch_over: true
@@ -152,14 +145,12 @@ selector_overrides:
               type_mask: 1048578
               tech_type_mask: 1048582
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
             - apn: tethering.dish.com
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -167,7 +158,6 @@ selector_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
         ims:

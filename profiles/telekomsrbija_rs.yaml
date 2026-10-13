@@ -10,7 +10,7 @@ plmn_overrides:
             - apn: gprswap
               username: mts
               password: "064"
-              type_mask: 49
+              type_mask: 32817
             - apn: mms
               username: mts
               password: "064"
@@ -19,6 +19,11 @@ plmn_overrides:
               username: mts
               password: "064"
               type_mask: 48
+        apple:
+            carrier_entitlements:
+                supported_entitlements: 5121
+        entitlement:
+            entitlement_url: https://ses.telekom.rs
         ims:
             register:
                 use_ipsec: true

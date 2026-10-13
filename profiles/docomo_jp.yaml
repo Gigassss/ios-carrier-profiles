@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: spmode.ne.jp
               type_mask: 32819
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               use_network_mtu: true
@@ -18,20 +17,17 @@ plmn_overrides:
             - apn: ims
               type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv6
               domestic_roaming_ip_stack: ipv6
               use_network_mtu: true
             - apn: hos
               type_mask: 1048576
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv6
               domestic_roaming_ip_stack: ipv6
             - apn: ""
               type_mask: 262144
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv6
               domestic_roaming_ip_stack: ipv6
         apple:
@@ -49,6 +45,7 @@ plmn_overrides:
             ip_stack: ipv6
             register:
                 use_ipsec: true
+                expires: 3600
             signaling:
                 preconditions: supported
                 support_p_early_media: true

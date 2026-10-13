@@ -8,20 +8,3 @@ profiles:
         - raw: "28010"
           carrier_name: epic
           iso: CY
-    - id: apple_sfr_fr
-      path: profiles/sfr_fr.yaml
-      selectors:
-        - raw: 28010_ID-89331014
-          carrier_name: SFR
-          iso: FR
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "89331014"
-        - raw: 28010_ID-893327
-          carrier_name: SFR
-          iso: FR
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "893327"

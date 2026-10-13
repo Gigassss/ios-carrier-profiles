@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: weborange
               type_mask: 49
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               xlat464_enabled: true
             - apn: mms.otun
@@ -18,6 +17,5 @@ plmn_overrides:
             - apn: weborange
               type_mask: 48
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               xlat464_enabled: true

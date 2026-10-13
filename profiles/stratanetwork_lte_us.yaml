@@ -10,26 +10,22 @@ plmn_overrides:
             - apn: rinainternet.rinawireless.com
               type_mask: 33335
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131078
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               support_switch_over: true
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               allow_no_dns: 3
         apple:
@@ -93,6 +89,7 @@ plmn_overrides:
                 validate_remote_certificate: false
             register:
                 use_ipsec: true
+                expires: 7200
                 include_cellular_network_info: true
             signaling:
                 max_udp_message_size: 1200
@@ -104,7 +101,6 @@ plmn_overrides:
                 additional_headers:
                     - selector: INVITE[wifi,911]
                       headers:
-                        - 'P-Emergency-Info: IEEE-802.11b;i-wlan-node-id=${DEVICE_REF_ID}'
                         - 'Supported: geolocation'
                 sip_timers:
                     InviteResponseTimeout: 6000

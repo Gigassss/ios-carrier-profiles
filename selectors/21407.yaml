@@ -31,16 +31,6 @@ profiles:
             - field: iccid
               match: prefix
               value: "8957123"
-    - id: apple_movistar_ec
-      path: profiles/movistar_ec.yaml
-      selectors:
-        - raw: 21407_ID-8959300
-          carrier_name: movistar ec
-          iso: EC
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "8959300"
     - id: apple_movistar_gt
       path: profiles/movistar_gt.yaml
       selectors:
@@ -91,16 +81,6 @@ profiles:
             - field: iccid
               match: prefix
               value: "89503040"
-    - id: apple_movistar_uy
-      path: profiles/movistar_uy.yaml
-      selectors:
-        - raw: 21407_ID-8959807
-          carrier_name: Tigo
-          iso: UY
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "8959807"
     - id: apple_setar_aw
       path: profiles/setar_aw.yaml
       selectors:

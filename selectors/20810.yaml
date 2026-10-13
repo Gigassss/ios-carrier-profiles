@@ -8,6 +8,13 @@ profiles:
         - raw: "20810"
           carrier_name: SFR
           iso: FR
+        - raw: 20810_ID-89331014
+          carrier_name: Coriolis
+          iso: FR
+          conditions:
+            - field: iccid
+              match: prefix
+              value: "89331014"
         - raw: 20810_ID-89331043
           carrier_name: Prixtel
           iso: FR
@@ -22,6 +29,13 @@ profiles:
             - field: iccid
               match: prefix
               value: "89331069"
+        - raw: 20810_ID-893327
+          carrier_name: Coriolis
+          iso: FR
+          conditions:
+            - field: iccid
+              match: prefix
+              value: "893327"
         - raw: 20810_ID-893330
           carrier_name: Syma
           iso: FR

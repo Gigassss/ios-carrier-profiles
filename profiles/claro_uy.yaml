@@ -18,13 +18,11 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
             - apn: sos
               type_mask: 262144
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
-              roaming_ip_stack: ipv6
+              roaming_ip_stack: ipv4v6
         e911:
             over_itech_supported: false
             wifi_calling_without_entitlement: true

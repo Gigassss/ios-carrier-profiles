@@ -14,7 +14,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               support_switch_over: true
               wait_for_bring_up_complete: true
               use_network_mtu: true

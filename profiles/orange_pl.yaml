@@ -20,7 +20,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
               use_network_mtu: true
               allow_no_dns: 1
@@ -29,14 +28,12 @@ plmn_overrides:
               password: internet
               type_mask: 32771
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv4
               xlat464_enabled: true
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               use_network_mtu: true
         apple:
             carrier_entitlements:

@@ -21,7 +21,7 @@ plmn_overrides:
               type_mask: 48
         apple:
             carrier_entitlements:
-                supported_entitlements: 5121
+                supported_entitlements: 13313
         entitlement:
             entitlement_url: https://esim-es-open-prod-aoners.esimcloud.net/aoners/prod/executeAppleActions
         ims:

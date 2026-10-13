@@ -31,14 +31,17 @@ common:
         - apn: airtelgprs.com
           type_mask: 32817
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4
           support_switch_over: true
           support_5g_sa_handover: true
+          no_cellular_reconnect_cause_codes:
+            - cause_codes:
+                - 2086
+              recovers_on_airplane_mode: true
+              type: 3GPP
           dont_suspend: true
     apple:
         carrier_entitlements:
@@ -96,6 +99,7 @@ common:
             rtcp_interval_seconds: 5
             rtp_inactivity_seconds: 20
         register:
+            expires: 7200
             include_cellular_network_info: true
             use_ipsec: true
         signaling:

@@ -12,21 +12,20 @@ common:
         - apn: vzwinternet
           type_mask: 4194835
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4
+          always_on_pdu: true
         - apn: vzwapp
           type_mask: 49156
           tech_type_mask: 16390
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv6
           roaming_ip_stack: ipv6
           always_on_pdu: true
           support_switch_over: true
+          support_5g_sa_handover: true
           no_cellular_reconnect_cause_codes:
             - cause_codes:
                 - 24
@@ -56,12 +55,10 @@ common:
         - apn: vzwadmin
           type_mask: 0
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
         - apn: vzwemergency
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
@@ -120,6 +117,8 @@ common:
             rtcp_inactivity_seconds: 20
             rtcp_interval_seconds: 5
             rtp_inactivity_seconds: 20
+        register:
+            use_ipsec: true
         signaling:
             additional_headers:
                 - selector: INVITE[911,wifi]

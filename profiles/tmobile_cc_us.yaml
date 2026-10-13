@@ -10,7 +10,6 @@ common:
         - apn: wholesale
           type_mask: 32785
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
@@ -18,7 +17,6 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true
@@ -28,7 +26,6 @@ common:
           type_mask: 1048582
           tech_type_mask: 1048582
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
@@ -36,7 +33,6 @@ common:
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true

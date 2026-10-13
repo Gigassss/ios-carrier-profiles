@@ -16,4 +16,3 @@ common:
         - apn: ""
           type_mask: 65585
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6

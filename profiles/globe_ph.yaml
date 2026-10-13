@@ -10,20 +10,17 @@ plmn_overrides:
             - apn: internet.globe.com.ph
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               xlat464_enabled: true
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
               use_network_mtu: true
             - apn: xcap
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
                 supported_entitlements: 9233
@@ -63,6 +60,7 @@ plmn_overrides:
                     replay_window_size: 12
             register:
                 use_ipsec: true
+                expires: 7200
             signaling:
                 preconditions: supported
                 support_p_early_media: false
@@ -83,6 +81,8 @@ plmn_overrides:
                             - +g.3gpp.ps2cs-srvcc-orig-pre-alerting
             media:
                 rtp_inactivity_seconds: 20
+            ussi:
+                enabled: true
             volte:
                 enable_volte_by_default: true
         roaming:

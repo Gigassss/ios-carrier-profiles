@@ -12,7 +12,6 @@ plmn_overrides:
               password: Hy3Df
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
             - apn: ims
               type_mask: 131072

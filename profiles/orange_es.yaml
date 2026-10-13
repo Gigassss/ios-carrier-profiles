@@ -12,32 +12,28 @@ plmn_overrides:
               password: orange
               type_mask: 32769
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: orangemms
               username: orange
               password: orange
               type_mask: 4
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: internet
               username: orange
               password: orange
               type_mask: 48
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               support_5g_sa_handover: true
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               support_switch_over: true
               support_5g_sa_handover: true
               use_network_mtu: true
               allow_no_dns: 1
         apple:
             carrier_entitlements:
-                supported_entitlements: 9425
+                supported_entitlements: 4203729
         e911:
             over_itech_supported: true
             wifi_calling_without_entitlement: false

@@ -11,6 +11,8 @@ plmn_overrides:
               username: taif
               password: taif
               type_mask: 32817
+              allowed_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
             - apn: mms
               username: mms
               password: mms
@@ -18,7 +20,6 @@ plmn_overrides:
             - apn: IMS
               type_mask: 131072
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               allow_no_dns: 1
         apple:
             carrier_entitlements:
@@ -30,6 +31,7 @@ plmn_overrides:
             ip_stack: ipv4
             register:
                 use_ipsec: true
+                expires: 7200
                 include_cellular_network_info: true
             signaling:
                 preconditions: supported

@@ -26,7 +26,7 @@ plmn_overrides:
               type_mask: 1048576
         apple:
             carrier_entitlements:
-                supported_entitlements: 31745
+                supported_entitlements: 23553
         entitlement:
             entitlement_url: https://es.bh.zain.com
         ims:

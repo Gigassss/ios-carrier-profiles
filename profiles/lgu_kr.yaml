@@ -10,7 +10,6 @@ common:
         - apn: internet.lguplus.co.kr
           type_mask: 1081349
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           xlat464_enabled: true
           no_cellular_reconnect_cause_codes:
@@ -22,12 +21,10 @@ common:
         - apn: IMS
           type_mask: 131072
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
         - apn: tethering.lguplus.co.kr
           type_mask: 48
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           xlat464_enabled: true
           no_cellular_reconnect_cause_codes:
@@ -39,7 +36,6 @@ common:
         - apn: emergency.lguplus.co.kr
           type_mask: 262144
           allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
           roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:

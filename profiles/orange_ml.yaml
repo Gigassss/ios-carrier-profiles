@@ -7,15 +7,15 @@ supported_plmns:
 plmn_overrides:
     "61002":
         apns:
-            - apn: iphone
-              username: iphone
-              password: iphone
+            - apn: internet
+              username: internet
+              password: internet
               type_mask: 49
             - apn: mms
               username: mms
               password: mms
               type_mask: 4
-            - apn: iphone
-              username: iphone
-              password: iphone
+            - apn: internet
+              username: internet
+              password: internet
               type_mask: 48

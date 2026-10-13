@@ -31,6 +31,16 @@ profiles:
             - field: iccid
               match: prefix
               value: "893204"
+    - id: apple_cablenet_cy
+      path: profiles/cablenet_cy.yaml
+      selectors:
+        - raw: 20601_ID-8935722
+          carrier_name: cablenet
+          iso: CY
+          conditions:
+            - field: iccid
+              match: prefix
+              value: "8935722"
     - id: apple_cellcom_golan_il
       path: profiles/cellcom_golan_il.yaml
       selectors:

@@ -10,4 +10,3 @@ plmn_overrides:
             - apn: palaucel
               type_mask: 49
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4

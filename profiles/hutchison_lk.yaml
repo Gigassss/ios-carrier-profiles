@@ -9,3 +9,4 @@ plmn_overrides:
         apns:
             - apn: internet
               type_mask: 53
+              allowed_ip_stack: ipv4v6

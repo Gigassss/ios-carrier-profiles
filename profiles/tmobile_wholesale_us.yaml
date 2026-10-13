@@ -1,48 +1,49 @@
 version: 3
 kind: carrier_bundle
-id: apple_tmobile_ting_us
-bundle: TMobile_Ting_US.bundle
+id: apple_tmobile_wholesale_us
+bundle: TMobile_Wholesale_US.bundle
 supported_plmns:
     - "310240"
     - "310260"
 common:
     apns:
         - apn: wholesale
-          type_mask: 32785
-          allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
-          roaming_ip_stack: ipv4
-          domestic_roaming_ip_stack: ipv4
+          type_mask: 1081351
+          allowed_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4v6
           xlat464_enabled: true
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true
           support_switch_over: true
           support_5g_sa_handover: true
         - apn: service
-          type_mask: 1048582
           tech_type_mask: 1048582
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
-          roaming_ip_stack: ipv4
-          domestic_roaming_ip_stack: ipv4
+          roaming_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4v6
+          xlat464_enabled: true
+        - apn: hotspot
+          type_mask: 16
+          allowed_ip_stack: ipv4v6
+          roaming_ip_stack: ipv4v6
+          domestic_roaming_ip_stack: ipv4v6
           xlat464_enabled: true
         - apn: sos
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true
     apple:
         carrier_entitlements:
-            supported_entitlements: 409
+            supported_entitlements: 4727193
     e911:
         emergency_urns:
             default: urn:service:sos
@@ -109,10 +110,6 @@ common:
             early_media_needs_header: true
             max_udp_message_size: 1200
             preconditions: required
-            re_register_on:
-                - method: INVITE
-                  statuses:
-                    - "403"
             require_preconditions_when_mandatory: false
             sip_timers:
                 EmergencyInviteResponseTimeout: 5000

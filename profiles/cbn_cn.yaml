@@ -10,18 +10,15 @@ plmn_overrides:
             - apn: cbnet
               type_mask: 1048625
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: IMS
               type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               wait_for_bring_up_complete: true
             - apn: cbnet
               type_mask: 1048624
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
         ims:
             apn: ims

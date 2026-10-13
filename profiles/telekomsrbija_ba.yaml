@@ -10,12 +10,9 @@ plmn_overrides:
             - apn: 3g1
               type_mask: 49
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: 3g1
               type_mask: 48
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: mtelmms
               type_mask: 4
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4

@@ -16,20 +16,17 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv6
           roaming_ip_stack: ipv6
           support_switch_over: true
         - apn: services
           type_mask: 1048576
           tech_type_mask: 1048578
           allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
           roaming_ip_stack: ipv4
         - apn: sos
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
@@ -87,6 +84,7 @@ common:
         media:
             rtp_inactivity_seconds: 30
         register:
+            expires: 7200
             include_cellular_network_info: true
             use_ipsec: true
         signaling:

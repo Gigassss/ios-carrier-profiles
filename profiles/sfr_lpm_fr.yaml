@@ -15,7 +15,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
         e911:
             over_itech_supported: true

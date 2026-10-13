@@ -3,14 +3,13 @@ kind: carrier_bundle
 id: apple_movistar_ec
 bundle: movistar_ec.bundle
 supported_plmns:
-    - "21402"
-    - "21407"
     - "74000"
+    - "740005"
 common:
     apns:
-        - apn: internet.movistar.com.ec
-          username: movistar
-          password: movistar
+        - apn: internet.tigo.ec
+          username: tigo
+          password: tigo
           type_mask: 49
         - apn: ims
           type_mask: 131072
@@ -20,6 +19,7 @@ common:
         media:
             rtcp_inactivity_seconds: 36000
         register:
+            expires: 3600
             use_ipsec: true
         signaling:
             contact:

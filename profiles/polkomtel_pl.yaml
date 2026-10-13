@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: plus
               type_mask: 51
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               no_cellular_reconnect_cause_codes:
                 - cause_codes:
@@ -31,7 +30,6 @@ plmn_overrides:
             - apn: ims
               type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               no_cellular_reconnect_cause_codes:
                 - cause_codes:
                     - 26

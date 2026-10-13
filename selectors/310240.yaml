@@ -101,13 +101,6 @@ profiles:
     - id: apple_tmobile_mvno_us
       path: profiles/tmobile_mvno_us.yaml
       selectors:
-        - raw: 310240_GID1-1A53
-          carrier_name: TMobile MVNO US
-          iso: US
-          conditions:
-            - field: gid1
-              match: prefix
-              value: 1A53
         - raw: 310240_GID1-4201
           carrier_name: TMobile MVNO US
           iso: US
@@ -286,16 +279,6 @@ profiles:
             - field: gid1
               match: prefix
               value: DE
-    - id: apple_tmobile_ting_us
-      path: profiles/tmobile_ting_us.yaml
-      selectors:
-        - raw: 310240_GID1-6135
-          carrier_name: Ting
-          iso: US
-          conditions:
-            - field: gid1
-              match: prefix
-              value: "6135"
     - id: apple_tmobile_ultramint_us
       path: profiles/tmobile_ultramint_us.yaml
       selectors:
@@ -351,3 +334,97 @@ profiles:
             - field: gid1
               match: prefix
               value: "54"
+    - id: apple_tmobile_wholesale_us
+      path: profiles/tmobile_wholesale_us.yaml
+      selectors:
+        - raw: 310240_GID1-1A53
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: 1A53
+        - raw: 310240_GID1-6911
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6911"
+        - raw: 310240_GID1-6913
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6913"
+        - raw: 310240_GID1-6917
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6917"
+        - raw: 310240_GID1-6918
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6918"
+        - raw: 310240_GID1-6919
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6919"
+        - raw: 310240_GID1-6923
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6923"
+        - raw: 310240_GID1-6924
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6924"
+        - raw: 310240_GID1-6927
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6927"
+        - raw: 310240_GID1-6928
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6928"
+        - raw: 310240_GID1-6957
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "6957"
+        - raw: 310240_GID1-80
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "80"
+        - raw: 310240_GID1-8135
+          carrier_name: TMobile Wholesale US
+          iso: US
+          conditions:
+            - field: gid1
+              match: prefix
+              value: "8135"

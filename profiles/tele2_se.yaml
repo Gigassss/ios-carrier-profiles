@@ -26,7 +26,7 @@ plmn_overrides:
               allowed_ip_stack: ipv4v6
         apple:
             carrier_entitlements:
-                supported_entitlements: 13313
+                supported_entitlements: 4207617
         e911:
             over_itech_supported: false
             wifi_calling_without_entitlement: true
@@ -82,9 +82,8 @@ plmn_overrides:
                 csfb_on:
                     - method: INVITE
                       statuses:
-                        - 3XX
-                        - 5XX
-                        - 6XX
+                        - "380"
+                        - "503"
                 require_preconditions_when_mandatory: false
                 contact:
                     additional_contact_params:

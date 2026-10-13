@@ -10,13 +10,11 @@ plmn_overrides:
             - apn: internet
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
-              allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
+              allowed_ip_stack: ipv6
               support_switch_over: true
               support_5g_sa_handover: true
               use_network_mtu: true
@@ -25,13 +23,11 @@ plmn_overrides:
             - apn: xcap
               type_mask: 1048576
               tech_type_mask: 1048576
-              allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
+              allowed_ip_stack: ipv6
               roaming_ip_stack: ipv4v6
             - apn: sos
               type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               allow_no_dns: 1
         apple:
             carrier_entitlements:
@@ -43,7 +39,7 @@ plmn_overrides:
             entitlement_url: https://entitlement1.ses.elisa.ee:8443
         ims:
             apn: ims
-            ip_stack: ipv4v6
+            ip_stack: ipv6
             epdg:
                 address: epdg.epc.mnc002.mcc248.pub.3gppnetwork.org
                 configuration_attributes:
@@ -86,6 +82,8 @@ plmn_overrides:
                             - +g.3gpp.ps2cs-srvcc-orig-pre-alerting
             media:
                 rtcp_interval_seconds: 5
+            ussi:
+                enabled: true
             volte:
                 enable_volte_by_default: true
         roaming:

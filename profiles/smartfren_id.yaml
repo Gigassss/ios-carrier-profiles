@@ -11,13 +11,10 @@ common:
         - apn: smartfren4g
           type_mask: 1048625
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
-          allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
           support_switch_over: true
     e911:
         over_itech_supported: false
@@ -55,11 +52,11 @@ common:
                 max_retries: 4
                 retry_interval_seconds: 10
             local_identifier: 0$imsi@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org
-        ip_stack: ipv4
         media:
             rtcp_interval_seconds: 5
         register:
             include_cellular_network_info: true
+            use_ipsec: true
         signaling:
             contact:
                 always_add_sip_instance: true

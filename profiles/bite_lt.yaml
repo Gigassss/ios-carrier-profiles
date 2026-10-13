@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: internet
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: mms
               username: mms@mms
@@ -19,7 +18,6 @@ plmn_overrides:
             - apn: hos
               type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
         apple:
             carrier_entitlements:

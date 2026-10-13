@@ -1,7 +1,7 @@
 version: 2
 plmn: "23487"
 profiles:
-    - id: lebara_uk
+    - id: apple_lebara_uk
       path: profiles/lebara_uk.yaml
       generic: true
       selectors:

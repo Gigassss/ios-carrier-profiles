@@ -12,7 +12,6 @@ plmn_overrides:
               password: net
               type_mask: 49
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
             - apn: mms.orange.jo
               username: mmc
@@ -23,7 +22,6 @@ plmn_overrides:
               password: net
               type_mask: 48
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
         ims:
             register:

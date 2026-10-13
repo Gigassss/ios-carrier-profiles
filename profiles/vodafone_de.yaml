@@ -10,22 +10,20 @@ plmn_overrides:
             - apn: web.vodafone.de
               type_mask: 1081395
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
+              support_5g_sa_handover: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
         apple:
             carrier_entitlements:
-                supported_entitlements: 76800
+                supported_entitlements: 109568
         e911:
             over_itech_supported: false
             wifi_calling_without_entitlement: true
@@ -85,6 +83,7 @@ plmn_overrides:
                         - 4XX
                         - 5XX
                         - 6XX
+                require_qos_before_ringing: true
                 require_preconditions_when_mandatory: false
                 contact:
                     additional_contact_params:

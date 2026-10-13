@@ -20,7 +20,7 @@ plmn_overrides:
               tech_type_mask: 262144
         apple:
             carrier_entitlements:
-                supported_entitlements: 5121
+                supported_entitlements: 13313
         e911:
             over_itech_supported: false
         entitlement:

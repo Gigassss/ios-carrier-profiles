@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: vzwinternet
               type_mask: 4194359
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               no_cellular_reconnect_cause_codes:
                 - cause_codes:
                     - 13
@@ -18,7 +17,6 @@ plmn_overrides:
             - apn: ims
               type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv6
               no_cellular_reconnect_cause_codes:
                 - cause_codes:
@@ -47,15 +45,12 @@ plmn_overrides:
             - apn: vzwapp
               type_mask: 49152
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: vzwadmin
               type_mask: 512
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: vzwemergency
               type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
         apple:
             carrier_entitlements:

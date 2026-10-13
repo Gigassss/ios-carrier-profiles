@@ -20,7 +20,6 @@ plmn_overrides:
             - apn: sos
               type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               use_network_mtu: true
               allow_no_dns: 1
         apple:

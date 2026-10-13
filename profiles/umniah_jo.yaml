@@ -11,6 +11,11 @@ plmn_overrides:
               type_mask: 49
             - apn: mms
               type_mask: 4
+        apple:
+            carrier_entitlements:
+                supported_entitlements: 1
+        entitlement:
+            entitlement_url: https://des.umniah.com/entitlement/
         ims:
             register:
                 use_ipsec: true

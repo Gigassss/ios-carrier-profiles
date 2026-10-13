@@ -18,11 +18,9 @@ plmn_overrides:
               auth_type: CHAP
               type_mask: 519
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: IMS
               type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               roaming_ip_stack: ipv6
             - apn: trg.uqmobile.jp
               username: uq@trg.uqmobile.jp
@@ -30,16 +28,13 @@ plmn_overrides:
               auth_type: CHAP
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: xcap
               type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: ""
               type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
         apple:
             carrier_entitlements:

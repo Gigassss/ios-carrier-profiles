@@ -39,7 +39,7 @@ common:
           xlat464_enabled: true
     apple:
         carrier_entitlements:
-            supported_entitlements: 4307969
+            supported_entitlements: 12696577
     e911:
         emergency_urns:
             "110": urn:service:sos.police

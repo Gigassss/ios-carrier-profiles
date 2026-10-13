@@ -76,6 +76,7 @@ plmn_overrides:
                 validate_remote_certificate: false
             register:
                 use_ipsec: true
+                expires: 7200
                 include_cellular_network_info: true
             signaling:
                 preconditions: unsupported

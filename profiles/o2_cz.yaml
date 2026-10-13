@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: internet
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: false
             - apn: mms
@@ -20,14 +19,12 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
               use_network_mtu: true
             - apn: xcap
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
         apple:
             carrier_entitlements:
                 supported_entitlements: 5121

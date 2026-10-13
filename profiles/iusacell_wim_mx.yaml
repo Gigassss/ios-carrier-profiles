@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: web.5g.wim.mx
               type_mask: 32769
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               use_network_mtu: true
             - apn: modem.wim.mx
               type_mask: 48
@@ -18,7 +17,6 @@ plmn_overrides:
             - apn: ims
               type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
               no_cellular_reconnect_cause_codes:
                 - cause_codes:

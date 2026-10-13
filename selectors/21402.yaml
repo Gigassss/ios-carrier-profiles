@@ -1,16 +1,6 @@
 version: 2
 plmn: "21402"
 profiles:
-    - id: apple_movistar_ec
-      path: profiles/movistar_ec.yaml
-      selectors:
-        - raw: 21402_ID-8959300
-          carrier_name: movistar ec
-          iso: EC
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "8959300"
     - id: apple_vivo_br
       path: profiles/vivo_br.yaml
       selectors:

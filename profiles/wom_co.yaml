@@ -11,14 +11,12 @@ common:
           type_mask: 131072
           tech_type_mask: 0
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           support_switch_over: true
           use_network_mtu: true
         - apn: internet.wom.co
           type_mask: 49
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
     ims:
         apn: ims
         ip_stack: ipv4v6
@@ -46,3 +44,5 @@ common:
             support_p_early_media: true
         ussi:
             enabled: true
+        volte:
+            enable_volte_by_default: true

@@ -15,7 +15,6 @@ common:
           type_mask: 1081351
           tech_type_mask: 1081351
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           always_on_pdu: true
           use_network_mtu: true
@@ -23,7 +22,6 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           always_on_pdu: true
           support_switch_over: true
@@ -40,14 +38,12 @@ common:
         - apn: hotspot
           type_mask: 16
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           use_network_mtu: true
         - apn: sos
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           use_network_mtu: true
     apple:
@@ -166,7 +162,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -174,7 +169,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -192,14 +186,12 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
     310280_GID1-52FF:
@@ -208,7 +200,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -216,7 +207,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -234,14 +224,12 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
     310410_GID1-52FF:
@@ -250,7 +238,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -258,7 +245,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -276,14 +262,12 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
     310560_GID1-52FF:
@@ -292,7 +276,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -300,7 +283,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -318,14 +300,12 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
     310950_GID1-52FF:
@@ -334,7 +314,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -342,7 +321,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -360,14 +338,12 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
     311180_GID1-52FF:
@@ -376,7 +352,6 @@ selector_overrides:
               type_mask: 1081351
               tech_type_mask: 1081351
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               use_network_mtu: true
@@ -384,7 +359,6 @@ selector_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               always_on_pdu: true
               support_switch_over: true
@@ -402,13 +376,11 @@ selector_overrides:
             - apn: nrhotspot
               type_mask: 16
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               use_network_mtu: true

@@ -24,7 +24,6 @@ plmn_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               allow_no_dns: 1
         apple:
             carrier_entitlements:

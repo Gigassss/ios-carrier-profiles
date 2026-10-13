@@ -11,7 +11,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               roaming_ip_stack: ipv4
               support_switch_over: true
             - apn: internet2

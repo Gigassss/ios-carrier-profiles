@@ -10,25 +10,21 @@ plmn_overrides:
             - apn: internet.emt.ee
               type_mask: 32817
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
             - apn: mms.emt.ee
               type_mask: 4
               tech_type_mask: 4
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               support_switch_over: true
         apple:

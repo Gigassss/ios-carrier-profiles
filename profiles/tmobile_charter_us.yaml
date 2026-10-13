@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: wholesale
               type_mask: 1081351
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -18,7 +17,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               domestic_roaming_ip_stack: ipv4v6
               always_on_pdu: true
@@ -27,14 +25,12 @@ plmn_overrides:
             - apn: service
               tech_type_mask: 1048582
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
             - apn: hotspot
               type_mask: 16
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
               domestic_roaming_ip_stack: ipv4
               xlat464_enabled: true
@@ -42,7 +38,6 @@ plmn_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4v6
               domestic_roaming_ip_stack: ipv4v6
               always_on_pdu: true
@@ -109,10 +104,6 @@ plmn_overrides:
                 preconditions: required
                 support_p_early_media: true
                 early_media_needs_header: true
-                re_register_on:
-                    - method: INVITE
-                      statuses:
-                        - "403"
                 require_preconditions_when_mandatory: false
                 contact:
                     always_add_sip_instance: true

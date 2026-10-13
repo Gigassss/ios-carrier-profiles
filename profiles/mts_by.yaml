@@ -12,7 +12,6 @@ plmn_overrides:
               password: mts
               type_mask: 53
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
         ims:
             register:
                 use_ipsec: true

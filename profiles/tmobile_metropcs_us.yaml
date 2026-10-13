@@ -10,7 +10,6 @@ common:
         - apn: fast.metropcs.com
           type_mask: 32769
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
@@ -18,7 +17,6 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true
@@ -28,14 +26,12 @@ common:
           type_mask: 1048582
           tech_type_mask: 1048582
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
         - apn: pcweb.metropcs.com
           type_mask: 16
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
@@ -43,7 +39,6 @@ common:
           type_mask: 262144
           tech_type_mask: 262144
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           domestic_roaming_ip_stack: ipv4v6
           always_on_pdu: true
@@ -116,10 +111,6 @@ common:
             early_media_needs_header: true
             max_udp_message_size: 1200
             preconditions: required
-            re_register_on:
-                - method: INVITE
-                  statuses:
-                    - "403"
             require_preconditions_when_mandatory: false
             sip_timers:
                 EmergencyInviteResponseTimeout: 5000

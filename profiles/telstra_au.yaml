@@ -12,14 +12,12 @@ common:
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           support_switch_over: true
           support_5g_sa_handover: true
         - apn: telstra.wap
           type_mask: 32771
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
           domestic_roaming_ip_stack: ipv4
           xlat464_enabled: true
@@ -27,7 +25,6 @@ common:
           type_mask: 52
           tech_type_mask: 4
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
         - apn: hos
           type_mask: 1048576
@@ -36,12 +33,11 @@ common:
         - apn: sos
           type_mask: 262144
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4v6
           allow_no_dns: 1
     apple:
         carrier_entitlements:
-            supported_entitlements: 533505
+            supported_entitlements: 535553
     e911:
         over_itech_supported: true
         wifi_calling_without_entitlement: true

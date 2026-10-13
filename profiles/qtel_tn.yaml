@@ -10,7 +10,6 @@ plmn_overrides:
             - apn: internet.ooredoo.tn
               type_mask: 49
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
             - apn: mms.ooredoo.tn
               username: mms
@@ -19,5 +18,4 @@ plmn_overrides:
             - apn: internet.ooredoo.tn
               type_mask: 48
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4

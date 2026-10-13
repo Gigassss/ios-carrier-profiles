@@ -10,7 +10,6 @@ common:
         - apn: apn.fastweb.it
           type_mask: 49
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
           roaming_ip_stack: ipv4
         - apn: apn.fastweb.it
           type_mask: 4
@@ -50,6 +49,7 @@ common:
                         - +g.3gpp.mid-call
                         - +g.3gpp.srvcc-alerting
                         - +g.3gpp.ps2cs-srvcc-orig-pre-alerting
+                        - text
             csfb_on:
                 - method: INVITE
                   statuses:

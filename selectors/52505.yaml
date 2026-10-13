@@ -21,16 +21,6 @@ profiles:
             - field: gid1
               match: prefix
               value: 616972616C6F31
-    - id: apple_apt_tw
-      path: profiles/apt_tw.yaml
-      selectors:
-        - raw: 52505_ID-8988605
-          carrier_name: GT
-          iso: TW
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "8988605"
     - id: apple_bics
       path: profiles/bics.yaml
       selectors:

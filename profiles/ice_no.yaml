@@ -10,23 +10,25 @@ common:
         - apn: ice.net
           type_mask: 49
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
-          roaming_ip_stack: ipv4
+          roaming_ip_stack: ipv4v6
         - apn: mms.ice.net
           type_mask: 4
           tech_type_mask: 4
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
           allowed_ip_stack: ipv6
-          default_ip_stack: ipv6
           support_switch_over: true
           use_network_mtu: true
+    apple:
+        carrier_entitlements:
+            supported_entitlements: 8193
     e911:
         over_itech_supported: true
         wifi_calling_without_entitlement: true
+    entitlement:
+        entitlement_url: https://esim-es-open-prod-ice.esimcloud.net/ice/prod/executeAppleActions
     ims:
         apn: ims
         epdg:

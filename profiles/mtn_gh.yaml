@@ -13,3 +13,8 @@ plmn_overrides:
               type_mask: 4
             - apn: internet
               type_mask: 48
+        apple:
+            carrier_entitlements:
+                supported_entitlements: 1
+        entitlement:
+            entitlement_url: https://des.mtn.com.gh/entitlement

@@ -9,13 +9,12 @@ plmn_overrides:
         apns:
             - apn: internet
               type_mask: 32817
-            - apn: mms
-              type_mask: 4
+              allowed_ip_stack: ipv4v6
+              roaming_ip_stack: ipv4
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
               use_network_mtu: true
         apple:

@@ -11,9 +11,12 @@ plmn_overrides:
               username: Telemach Internet
               type_mask: 49
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: telemach.hr
               username: Telemach MMS
               type_mask: 4
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
+        ims:
+            register:
+                use_ipsec: true
+            volte:
+                enable_volte_by_default: true

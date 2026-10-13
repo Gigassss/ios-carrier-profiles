@@ -13,12 +13,3 @@ profiles:
             - field: iccid
               match: prefix
               value: "89882470001"
-    - id: apple_wonet
-      path: profiles/wonet.yaml
-      selectors:
-        - raw: 90137_GID1-CC11
-          carrier_name: USIMS
-          conditions:
-            - field: gid1
-              match: prefix
-              value: CC11

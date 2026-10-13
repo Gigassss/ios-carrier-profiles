@@ -11,3 +11,6 @@ plmn_overrides:
               type_mask: 49
             - apn: mms.telco.mt
               type_mask: 4
+        ims:
+            volte:
+                enable_volte_by_default: true

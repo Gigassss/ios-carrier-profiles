@@ -12,11 +12,9 @@ common:
         - apn: web.viya.vi
           type_mask: 49
           allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
         - apn: mms.viya.vi
           type_mask: 4
           allowed_ip_stack: ipv4
-          default_ip_stack: ipv4
         - apn: hos
           type_mask: 1048576
     ims:

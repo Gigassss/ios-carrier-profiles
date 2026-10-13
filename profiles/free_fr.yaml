@@ -10,29 +10,25 @@ plmn_overrides:
             - apn: free
               type_mask: 32819
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
             - apn: free
               type_mask: 4
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               roaming_ip_stack: ipv4
             - apn: ims
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
               support_switch_over: true
               support_5g_sa_handover: true
             - apn: hos
               type_mask: 1048576
+              tech_type_mask: 1048576
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv6
-              default_ip_stack: ipv6
         apple:
             carrier_entitlements:
                 supported_entitlements: 4240385

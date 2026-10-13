@@ -33,7 +33,7 @@ plmn_overrides:
               xlat464_enabled: true
         apple:
             carrier_entitlements:
-                supported_entitlements: 5121
+                supported_entitlements: 13313
         e911:
             over_itech_supported: true
             wifi_calling_without_entitlement: true

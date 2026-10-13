@@ -17,7 +17,6 @@ common:
         - apn: sos
           type_mask: 262144
           allowed_ip_stack: ipv4v6
-          default_ip_stack: ipv4v6
     apple:
         carrier_entitlements:
             supported_entitlements: 9233

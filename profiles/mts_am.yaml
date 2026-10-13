@@ -13,18 +13,15 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               support_switch_over: true
             - apn: hos
               type_mask: 1048576
               tech_type_mask: 1048576
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
             - apn: sos
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4
-              default_ip_stack: ipv4
               allow_no_dns: 1
         e911:
             over_itech_supported: false

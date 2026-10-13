@@ -17,7 +17,6 @@ plmn_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               allow_no_dns: 1
         e911:
             over_itech_supported: false
@@ -87,5 +86,4 @@ selector_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               allow_no_dns: 1

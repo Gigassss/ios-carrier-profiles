@@ -9,7 +9,7 @@ plmn_overrides:
         apns:
             - apn: active.bhmobile.ba
               type_mask: 49
-              allowed_ip_stack: ipv4
+              allowed_ip_stack: ipv4v6
             - apn: mms.bhmobile.ba
               type_mask: 4
               allowed_ip_stack: ipv4

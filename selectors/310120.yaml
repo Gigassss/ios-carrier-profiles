@@ -21,13 +21,3 @@ profiles:
             - field: gid2
               match: prefix
               value: "11"
-    - id: apple_sprint_virgin_isim_lte_us
-      path: profiles/sprint_virgin_isim_lte_us.yaml
-      selectors:
-        - raw: 310120_GID2-12
-          carrier_name: Virgin
-          iso: US
-          conditions:
-            - field: gid2
-              match: prefix
-              value: "12"

@@ -11,7 +11,6 @@ plmn_overrides:
               type_mask: 131072
               tech_type_mask: 131072
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
             - apn: iphone.gta.net
               type_mask: 32769
@@ -27,7 +26,6 @@ plmn_overrides:
               type_mask: 262144
               tech_type_mask: 262144
               allowed_ip_stack: ipv4v6
-              default_ip_stack: ipv4v6
               support_switch_over: true
         apple:
             carrier_entitlements:
@@ -80,6 +78,7 @@ plmn_overrides:
                 validate_remote_certificate: false
             register:
                 use_ipsec: true
+                expires: 7200
             signaling:
                 preconditions: supported
                 support_p_early_media: true

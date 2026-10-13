@@ -35,19 +35,29 @@ profiles:
       path: profiles/chinatelecom_usim_mo.yaml
       selectors:
         - raw: 20404_ID-8985231
-          carrier_name: 中国电信
+          carrier_name: 中国电信(澳门)
           iso: MO
           conditions:
             - field: iccid
               match: prefix
               value: "8985231"
         - raw: 20404_ID-8985307
-          carrier_name: 中国电信
+          carrier_name: 中国电信(澳门)
           iso: MO
           conditions:
             - field: iccid
               match: prefix
               value: "8985307"
+    - id: apple_dito_ph
+      path: profiles/dito_ph.yaml
+      selectors:
+        - raw: 20404_ID-8963662600
+          carrier_name: DITO
+          iso: PH
+          conditions:
+            - field: iccid
+              match: prefix
+              value: "8963662600"
     - id: apple_gigsky_us
       path: profiles/gigsky_us.yaml
       selectors:
@@ -68,16 +78,6 @@ profiles:
             - field: iccid
               match: prefix
               value: "894707"
-    - id: apple_iwireless_us
-      path: profiles/iwireless_us.yaml
-      selectors:
-        - raw: 20404_ID-890177
-          carrier_name: iWireless
-          iso: US
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "890177"
     - id: apple_mirs_il
       path: profiles/mirs_il.yaml
       selectors:
@@ -148,16 +148,6 @@ profiles:
             - field: iccid
               match: prefix
               value: "891480"
-    - id: apple_verizon_lte_us
-      path: profiles/verizon_lte_us.yaml
-      selectors:
-        - raw: 20404_ID-891480
-          carrier_name: Verizon
-          iso: US
-          conditions:
-            - field: iccid
-              match: prefix
-              value: "891480"
     - id: apple_verizon_response_lte_us
       path: profiles/verizon_response_lte_us.yaml
       selectors:
@@ -224,6 +214,16 @@ profiles:
             - field: iccid
               match: prefix
               value: "8942702"
+    - id: apple_vodafone_travel
+      path: profiles/vodafone_travel.yaml
+      selectors:
+        - raw: 20404_GID1-C2
+          carrier_name: Vodafone Travel
+          iso: NL
+          conditions:
+            - field: gid1
+              match: prefix
+              value: C2
     - id: apple_webbing
       path: profiles/webbing.yaml
       selectors:
