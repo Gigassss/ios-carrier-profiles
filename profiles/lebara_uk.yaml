@@ -15,23 +15,19 @@ common:
         - apn: ims
           type_mask: 131072
           tech_type_mask: 131072
-          allowed_ip_stack: ipv4
+          allowed_ip_stack: ipv6
           support_switch_over: true
           support_5g_sa_handover: true
-        - apn: xcap
-          type_mask: 1081344
-          tech_type_mask: 1081344
-          allowed_ip_stack: ipv4
     ims:
         apn: ims
         domain: ims.mnc087.mcc234.3gppnetwork.org
         epdg:
             address: epdg.epc.mnc087.mcc234.pub.3gppnetwork.org
             configuration_attributes:
-                - identifier: 16384
+                - identifier: 16389
                   name: AssignedPCSCFIPv4
                   type: v4
-                - identifier: 16386
+                - identifier: 16390
                   name: AssignedPCSCFIPv6
                   type: v6
         ike:
@@ -52,7 +48,6 @@ common:
                 max_retries: 4
                 retry_interval_seconds: 10
             local_identifier: 0$imsi@nai.epc.mnc087.mcc234.3gppnetwork.org
-            username: 0$imsi@nai.epc.mnc087.mcc234.3gppnetwork.org
             proposals:
                 - encryption:
                     - aes256
@@ -65,8 +60,9 @@ common:
                   lifetime_seconds: 80000
                   authentication_method: None
                   eap_method: EAP-AKA
+            username: 0$imsi@nai.epc.mnc087.mcc234.3gppnetwork.org
             validate_remote_certificate: false
-        ip_stack: ipv4v6
+        ip_stack: ipv6
         media:
             rtcp_interval_seconds: 5
         register:
