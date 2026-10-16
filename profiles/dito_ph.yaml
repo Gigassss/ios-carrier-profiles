@@ -14,9 +14,12 @@ common:
           default_ip_stack: ipv4
     ims:
         apn: ims
+        domain: ims.mnc066.mcc515.3gppnetwork.org
         epdg:
             address: epdg.epc.mnc066.mcc515.pub.3gppnetwork.org
         ike:
+            local_identifier: 0$imsi@nai.epc.mnc066.mcc515.3gppnetwork.org
+            username: 0$imsi@nai.epc.mnc066.mcc515.3gppnetwork.org
             child_sa:
                 proposals:
                     - source_branch: FirstChild
