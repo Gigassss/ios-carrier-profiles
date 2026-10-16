@@ -54,7 +54,6 @@ profiles:
         - raw: 20404_ID-8963662600
           carrier_name: DITO
           iso: PH
-          vowifi_imsi: capture
           conditions:
             - field: iccid
               match: prefix
