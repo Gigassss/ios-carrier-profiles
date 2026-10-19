@@ -39,6 +39,16 @@ plmn_overrides:
             epdg:
                 address: epdg.epc.mnc002.mcc230.pub.3gppnetwork.org
             ike:
+                proposals:
+                    - encryption:
+                        - aes256
+                      integrity:
+                        - sha512
+                      prf:
+                        - sha512
+                      dh_groups:
+                        - 14
+                      lifetime_seconds: 864000
                 nat_keepalive_enabled: true
                 child_sa:
                     proposals:

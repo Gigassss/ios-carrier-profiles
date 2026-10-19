@@ -49,6 +49,16 @@ plmn_overrides:
                       name: AssignedPCSCFIPv4
                       type: v4
             ike:
+                proposals:
+                    - encryption:
+                        - aes256
+                      integrity:
+                        - sha256
+                      prf:
+                        - sha256
+                      dh_groups:
+                        - 14
+                      lifetime_seconds: 86400
                 nat_keepalive_enabled: true
                 child_sa:
                     proposals:

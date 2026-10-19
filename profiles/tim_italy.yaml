@@ -40,6 +40,17 @@ plmn_overrides:
                       name: AssignedPCSCFIPv6
                       type: v6
             ike:
+                proposals:
+                    - encryption:
+                        - aes256
+                      integrity:
+                        - sha512
+                      prf:
+                        - sha512
+                      dh_groups:
+                        - 16
+                      lifetime_seconds: 86400
+                      authentication_method: Certificate
                 nat_keepalive_enabled: true
                 child_sa:
                     proposals:

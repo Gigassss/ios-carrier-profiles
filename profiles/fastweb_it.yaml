@@ -34,6 +34,16 @@ common:
                       esn: auto
                       lifetime_seconds: 86400
             nat_keepalive_enabled: true
+            proposals:
+                - encryption:
+                    - aes256
+                  integrity:
+                    - sha512
+                  prf:
+                    - sha512
+                  dh_groups:
+                    - 15
+                  lifetime_seconds: 86400
         impi_format: imsi@carrierDomain
         impu_format: imsi@carrierDomain
         media:

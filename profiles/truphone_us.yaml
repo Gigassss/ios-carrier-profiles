@@ -73,6 +73,17 @@ common:
                 max_retries: 4
                 retry_interval_seconds: 10
             local_identifier: 0$imsi@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org
+            proposals:
+                - encryption:
+                    - aes256
+                  integrity:
+                    - sha512
+                  prf:
+                    - sha512
+                  dh_groups:
+                    - 15
+                  lifetime_seconds: 80000
+                  eap_method: EAP-AKA
             validate_remote_certificate: false
         ip_stack: ipv4v6
         media:
