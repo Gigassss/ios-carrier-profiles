@@ -84,6 +84,13 @@ common:
                   eap_method: EAP-AKA
         ip_stack: ipv4v6
         media:
+            codecs:
+                - payload_type: 106
+                  name: EVS
+                  clock_rate: 16000
+                  channels: 1
+                  fmtp: br=9.6-24.4; bw=nb-swb; ch-aw-recv=3; cmr=-1
+            evs_hard_bw_limit: nb-swb
             rtcp_interval_seconds: 5
             rtp_inactivity_seconds: 30
         register:

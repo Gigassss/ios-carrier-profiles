@@ -47,6 +47,13 @@ common:
         impi_format: imsi@carrierDomain
         impu_format: imsi@carrierDomain
         media:
+            codecs:
+                - payload_type: 112
+                  name: EVS
+                  clock_rate: 16000
+                  channels: 1
+                  fmtp: br=9.6-24.4; bw=nb-swb; ch-aw-recv=-1
+            evs_hard_bw_limit: nb-swb
             rtp_inactivity_seconds: 20
         register:
             include_cellular_network_info: true
