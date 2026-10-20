@@ -93,6 +93,7 @@ common:
             validate_remote_certificate: false
         ip_stack: ipv4v6
         media:
+            rtcp_inactivity_seconds: 30
             rtp_inactivity_seconds: 30
         register:
             use_ipsec: true

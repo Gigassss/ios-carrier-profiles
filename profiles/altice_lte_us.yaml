@@ -98,6 +98,7 @@ common:
             validate_remote_certificate: false
         ip_stack: ipv4
         media:
+            rtcp_inactivity_seconds: 30
             rtp_inactivity_seconds: 30
         register:
             include_cellular_network_info: true

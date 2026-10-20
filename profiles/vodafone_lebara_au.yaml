@@ -78,6 +78,7 @@ plmn_overrides:
                 use_ipsec: true
                 include_cellular_network_info: true
             signaling:
+                preconditions: supported
                 support_p_early_media: true
                 early_media_needs_header: true
                 require_preconditions_when_mandatory: false
@@ -89,5 +90,8 @@ plmn_overrides:
                             - +g.3gpp.mid-call
                             - +g.3gpp.srvcc-alerting
                             - +g.3gpp.ps2cs-srvcc-orig-pre-alerting
+            media:
+                rtp_inactivity_seconds: 15
+                rtcp_interval_seconds: 5
             volte:
                 enable_volte_by_default: true

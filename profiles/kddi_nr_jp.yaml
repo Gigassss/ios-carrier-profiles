@@ -56,6 +56,11 @@ common:
             use_ipsec: true
         signaling:
             early_media_needs_header: true
+            preconditions: supported
+            re_register_on:
+                - method: INVITE
+                  statuses:
+                    - "408"
             require_preconditions_when_mandatory: false
             require_qos_before_ringing: true
             sip_timers:

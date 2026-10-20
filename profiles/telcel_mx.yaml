@@ -125,6 +125,7 @@ common:
                     - "603"
             early_media_needs_header: true
             max_udp_message_size: 1300
+            preconditions: supported
             require_preconditions_when_mandatory: false
             support_p_early_media: true
         volte:

@@ -59,6 +59,7 @@ plmn_overrides:
                           lifetime_seconds: 86400
             register:
                 use_ipsec: true
+                expires: 7200
                 include_cellular_network_info: true
             signaling:
                 max_udp_message_size: 5000

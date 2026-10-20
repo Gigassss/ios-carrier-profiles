@@ -84,6 +84,7 @@ plmn_overrides:
                 use_ipsec: true
                 include_cellular_network_info: true
             signaling:
+                preconditions: supported
                 support_p_early_media: true
                 early_media_needs_header: true
                 csfb_on:

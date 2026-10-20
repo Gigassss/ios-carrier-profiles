@@ -107,6 +107,9 @@ plmn_overrides:
                     - selector: INVITE,INVITE:*
                       headers:
                         - 'Feature-Caps: *;+g.3gpp.srvcc-alerting'
+            media:
+                rtp_inactivity_seconds: 30
+                rtcp_inactivity_seconds: 25
             volte:
                 enable_volte_by_default: true
         roaming:

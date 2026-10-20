@@ -97,6 +97,7 @@ common:
                   eap_method: EAP-AKA
         ip_stack: ipv4v6
         media:
+            rtcp_interval_seconds: 5
             rtp_inactivity_seconds: 20
         register:
             expires: 7200

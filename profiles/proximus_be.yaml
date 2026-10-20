@@ -117,6 +117,7 @@ plmn_overrides:
                     InviteResponseTimeout: 4000
             media:
                 rtp_inactivity_seconds: 20
+                rtcp_interval_seconds: 5
             volte:
                 enable_volte_by_default: true
         roaming:

@@ -68,6 +68,7 @@ common:
                   eap_method: EAP-AKA
             validate_remote_certificate: false
         media:
+            rtcp_inactivity_seconds: 30
             rtp_inactivity_seconds: 30
         register:
             use_ipsec: true

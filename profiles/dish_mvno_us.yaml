@@ -83,6 +83,7 @@ plmn_overrides:
                     InviteResponseTimeout: 0
             media:
                 rtp_inactivity_seconds: 30
+                rtcp_inactivity_seconds: 30
             ussi:
                 enabled: true
                 response_timeout_milliseconds: 20000

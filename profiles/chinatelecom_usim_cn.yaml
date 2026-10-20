@@ -58,6 +58,7 @@ common:
             use_ipsec: true
         signaling:
             early_media_needs_header: true
+            preconditions: supported
             require_preconditions_when_mandatory: false
             require_qos_before_ringing: true
             support_p_early_media: true

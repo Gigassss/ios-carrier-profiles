@@ -110,6 +110,7 @@ common:
             validate_remote_certificate: false
         ip_stack: ipv4v6
         media:
+            rtcp_inactivity_seconds: 30
             rtp_inactivity_seconds: 30
         register:
             use_ipsec: true
@@ -122,6 +123,10 @@ common:
             early_media_needs_header: true
             max_udp_message_size: 1200
             preconditions: required
+            re_register_on:
+                - method: INVITE
+                  statuses:
+                    - "403"
             require_preconditions_when_mandatory: false
             sip_timers:
                 EmergencyInviteResponseTimeout: 5000

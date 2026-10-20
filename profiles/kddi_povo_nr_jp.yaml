@@ -40,8 +40,13 @@ plmn_overrides:
             register:
                 use_ipsec: true
             signaling:
+                preconditions: supported
                 support_p_early_media: true
                 early_media_needs_header: true
+                re_register_on:
+                    - method: INVITE
+                      statuses:
+                        - "408"
                 require_qos_before_ringing: true
                 require_preconditions_when_mandatory: false
                 sip_timers:

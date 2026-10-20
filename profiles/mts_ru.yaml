@@ -103,6 +103,8 @@ plmn_overrides:
                             - +g.3gpp.mid-call
                             - +g.3gpp.srvcc-alerting
                             - +g.3gpp.ps2cs-srvcc-orig-pre-alerting
+            media:
+                rtcp_inactivity_seconds: 180
             ussi:
                 enabled: true
             volte:
